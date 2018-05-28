@@ -1,79 +1,87 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
-  </div>
+  <section class="p-thanks">
+    <div class="c-container">
+      <div class="p-thanks_title">
+        Special Thanks
+      </div>
+      <ul class="p-thanks_list row">
+        <li class="col">
+          <div class="p-thanks_listItem">
+            <a href="#" ><div class="thumb"/></a>
+            <span class="work">Logo Desiginer</span>
+          </div>
+        </li>
+        <li class="col">
+          <div class="p-thanks_listItem">
+            <a href="#" ><div class="thumb"/></a>
+            <span class="work">Logo Desiginer</span>
+          </div>
+        </li>
+        <li class="col">
+          <div class="p-thanks_listItem">
+            <a href="#" ><div class="thumb"/></a>
+            <span class="work">Logo Desiginer</span>
+          </div>
+        </li>
+        <li class="col">
+          <div class="p-thanks_listItem">
+            <a href="#" ><div class="thumb"/></a>
+            <span class="work">Logo Desiginer</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 </template>
 
-<style>
-.VueToNuxtLogo {
-  display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
-  position: relative;
-  overflow: hidden;
-  height: 180px;
-  width: 245px;
-}
+<script></script>
 
-.Triangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-}
+<style lang="scss" scoped>
+  @import "~/assets/scss/library/_variable.scss";
+  @import "~/assets/scss/library/_mixin.scss";
 
-.Triangle--one {
-  border-left: 105px solid transparent;
-  border-right: 105px solid transparent;
-  border-bottom: 180px solid #41B883;
-}
+  .p-thanks {
+    @include secPadding;
+    background: $clr_bg-lightOrange;
 
-.Triangle--two {
-  top: 30px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-left: 87.5px solid transparent;
-  border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3B8070;
-}
+    &_title {
+      @include title-border;
+    }
 
-.Triangle--three {
-  top: 60px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495E;
-}
+    &_list {
+      margin: 0 auto;
+      list-style: none;
+      justify-content: space-between;
+    }
 
-.Triangle--four {
-  top: 120px;
-  left: 70px;
-  animation: godown 0.5s linear forwards 3s;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 60px solid #fff;
-}
+    &_listItem {
+      padding: 20px 18px;
+      text-align: center;
+      background: white;
 
-@keyframes turn {
-  100% {
-    transform: rotateX(0deg);
+      .thumb {
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 180px;
+        background-image: url("http://placehold.it/200x160");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+        &::before {
+          content: "";
+          display: block;
+          padding-top: 80%;
+        }
+      }
+      .work {
+        font-weight: bold;
+        color: $clr_brown;
+      }
+
+    }
+
+
   }
-}
-
-@keyframes godown {
-  100% {
-    top: 180px;
-  }
-}
-
-@keyframes goright {
-  100% {
-    left: 70px;
-  }
-}
 </style>

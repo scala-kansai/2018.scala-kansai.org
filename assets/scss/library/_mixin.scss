@@ -1,10 +1,13 @@
 @import "_variable";
 
+//Media Query
 @mixin desktop(){
   @media(min-width: 786px){
     @content
   }
 }
+
+//Section Rule
 @mixin secPadding {
   padding: 40px 0 60px;
 }
@@ -16,6 +19,26 @@
   letter-spacing: 2px;
 }
 
+@mixin secRead {
+  display: inline-block;
+  max-width: 600px;
+  margin-bottom: 4rem;
+}
+
+
+//Title
+@mixin title-border {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(127,91,90,.5);
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $clr_brown;
+}
+
+//Button
 @mixin btnIcon($color:white,$backgound:$clr_accent) {
   display: inline-block;
   margin-left: 5px;
@@ -30,7 +53,7 @@
     opacity: .8;
   }
   i {
-    margin-left: 1em;
+    margin-right: .6em;
     font-size: 1.3em;
   }
 }
