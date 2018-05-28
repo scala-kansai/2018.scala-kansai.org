@@ -1,0 +1,36 @@
+@import "_variable";
+
+@mixin desktop(){
+  @media(min-width: 786px){
+    @content
+  }
+}
+@mixin secPadding {
+  padding: 40px 0 60px;
+}
+
+@mixin secHeading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+@mixin btnIcon($color:white,$backgound:$clr_accent) {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: $color;
+  background: $backgound;
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+  }
+  i {
+    margin-left: 1em;
+    font-size: 1.3em;
+  }
+}

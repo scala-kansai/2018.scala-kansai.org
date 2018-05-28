@@ -1,10 +1,23 @@
 <template>
   <div>
     <nuxt/>
+    <l-footer/>
   </div>
 </template>
 
-<style>
+<script>
+  import lFooter from '~/components/Footer.vue'
+
+  export default {
+    components: {
+      lFooter,
+    }
+  }
+</script>
+
+
+<style lang="scss" >
+@import "~/assets/scss/common.scss";
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;

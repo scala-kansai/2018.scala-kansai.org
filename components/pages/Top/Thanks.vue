@@ -1,6 +1,5 @@
 <template>
   <div class="VueToNuxtLogo">
-    <p>えええ</p>
     <div class="Triangle Triangle--two"/>
     <div class="Triangle Triangle--one"/>
     <div class="Triangle Triangle--three"/>
