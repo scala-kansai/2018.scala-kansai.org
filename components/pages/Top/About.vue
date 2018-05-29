@@ -11,11 +11,11 @@
       </div>
       <div class="p-about_list">
         <div class="p-about_listItem">
-          <div class="row">
-            <div class="col-auto detail">
+          <div class="row ">
+            <div class="col-md-auto">
               <img class="img" src="~assets/images/about_session.png" alt="session">
             </div>
-            <div class="col">
+            <div class="col-md detail">
               <h3 class="title">
                 <span class="day">1日目</span>
                 セッション
@@ -58,7 +58,7 @@
 
   .p-about {
     @include secPadding;
-    padding-top: 80px;
+    padding-top: 40px;
     width: 100%;
     background: $clr_bg-Green;
     background-image: url("~assets/images/about_background.png");
@@ -66,6 +66,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+
+    @include desktop {
+      padding-top: 80px;
+    }
 
     .leaf4 {
       @include leaf;
@@ -89,7 +93,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       position: absolute;
-      top: 0;
+      top: -1px;
       z-index: 1000;
       &::before {
         content: "";
@@ -100,8 +104,11 @@
     }
     &_logo {
       margin-bottom: 30px;
-      width: 60%;
-      max-width: 650px;
+      width: 75%;
+      @include desktop {
+        width: 60%;
+        max-width: 650px;
+      }
     }
 
     &_heading {

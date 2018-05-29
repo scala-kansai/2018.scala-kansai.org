@@ -1,17 +1,15 @@
 <template>
   <section class="p-hero">
-    <div class="p-hero_imgArea">
-      <img src="~assets/images/leaf1.svg" class="leaf1">
-      <img src="~assets/images/leaf2.svg" class="leaf2">
-      <img src="~assets/images/leaf3.svg" class="leaf3">
-      <img src="~assets/images/leaf4.svg" class="leaf4">
-      <img src="~assets/images/leaf5.svg" class="leaf5">
-      <img src="~assets/images/leaf6.svg" class="leaf6">
-      <img src="~assets/images/leaf7.svg" class="leaf7">
-      <img src="~assets/images/leaf8.svg" class="leaf8">
-      <img src="~assets/images/leaf9.svg" class="leaf9">
-      <img src="~assets/images/leaf10.svg" class="leaf10">
-    </div>
+    <img src="~assets/images/leaf1.svg" class="leaf1">
+    <img src="~assets/images/leaf2.svg" class="leaf2">
+    <img src="~assets/images/leaf3.svg" class="leaf3">
+    <img src="~assets/images/leaf4.svg" class="leaf4">
+    <img src="~assets/images/leaf5.svg" class="leaf5">
+    <img src="~assets/images/leaf6.svg" class="leaf6">
+    <img src="~assets/images/leaf7.svg" class="leaf7">
+    <img src="~assets/images/leaf8.svg" class="leaf8">
+    <img src="~assets/images/leaf9.svg" class="leaf9">
+    <img src="~assets/images/leaf10.svg" class="leaf10">
 
     <div class="c-container">
       <img src="~assets/images/keyVisual.png" class="p-hero_keyVisual">
@@ -21,13 +19,15 @@
         Scalaカンファレンス
       </h3>
       <div class="p-hero_read">
-        2018年 &nbsp;<span class="day">11</span>月 <span class="day">10</span>日 (<span class="week">土</span>)  &nbsp; -  &nbsp; <span class="day">11</span>日 (<span class="week">日</span>)　大阪にて開催！
+        2018年 &nbsp;<span class="day">11</span>月 <span class="day">10</span>日 (<span class="week">土</span>) -  <span class="day">11</span>日 (<span class="week">日</span>)
+        <br>
+        大阪にて開催！
         <br>
         今年は2日間に渡っての開催となります！
       </div>
-      <div class="p-hero_now">
-        <a href="">スピーカー &amp; スポンサー募集中！</a>
-      </div>
+      <a href="" class="p-hero_now">
+        スピーカー &amp; スポンサー募集中！
+      </a>
       <div class="p-hero_share">
         <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
           <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -55,15 +55,12 @@
   }
 
   .p-hero {
-    padding: 40px 0 20px;
+    padding: 30px 0 10px;
     background: #FFEBB8;
     text-align: center;
     position: relative;
-
-
-    &_imgArea {
-      margin:  0 auto;
-      max-width: 1500px;
+    @include desktop {
+      padding: 40px 0 20px;
     }
 
     .leaf1 {
@@ -86,6 +83,7 @@
       right: 4vw;
       top: 45%;
 
+
     }
     .leaf4 {
       @include leaf;
@@ -96,21 +94,28 @@
     }
     .leaf5 {
       @include leaf;
-      width: 17vw;
+      width: 30vw;
+      max-width: 170px;
       left: 59%;
-      top: 20%;
+      top: 13%;
       @include desktop {
+        width: 17vw;
+        left: 59%;
+        top: 20%;
         min-width: 200px;
       }
 
     }
     .leaf6 {
       @include leaf;
-      width: 16vw;
-      left: 22vw;
+      width: 24vw;
+      max-width: 130px;
+      left: 18vw;
       top: 27%;
       @include desktop {
         min-width: 180px;
+        width: 16vw;
+        left: 22vw;
       }
     }
     .leaf7 {
@@ -146,27 +151,44 @@
 
 
     &_keyVisual {
-      max-width: 280px;
+      max-width: 150px;
+      @include desktop {
+        max-width: 280px;
+      }
 
     }
 
     &_heading {
       margin-top: 0;
       margin-bottom: 20px;
-      font-size: 4rem;
+      font-size: 2.6rem;
       font-weight: bold;
       letter-spacing: 2px;
       line-height: 1.4;
+      @include desktop {
+        font-size: 4rem;
+      }
+
 
     }
 
     &_read {
-      margin-bottom:  2em;
-      font-size: 1.8rem;
+      margin-bottom:  1.5em;
+      font-size: 1.4rem;
       font-feature-settings : "palt";
+      @include desktop{
+        font-size: 1.8rem;
+        margin-bottom:  2em;
+      }
+
 
       .day {
-        font-size: 1.5em;
+        font-size: 1.3em;
+        font-weight: bold;
+        @include desktop {
+          font-size: 1.5em;
+          font-weight: normal;
+        }
       }
       .week {
         font-weight: bold;
@@ -175,13 +197,20 @@
 
     &_now {
       display: inline-block;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       border-radius: 9999px;
-      padding: .5em 1em;
-      min-width: 320px;
-      font-size: 1.6rem;
+      padding: .5em 2em;
+      color: $clr_accent;
+      min-width: 0;
+      font-size: 1.4rem;
       font-weight: bold;
       background: white;
+      @include desktop {
+        margin-bottom: 30px;
+        padding: .5em 1em;
+        min-width: 320px;
+        font-size: 1.6rem;
+      }
     }
     &_share {
       .btn {
@@ -190,11 +219,16 @@
         border-radius: 50%;
         padding: .3em;
         font-size: 2rem;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         background: $clr_brown;
-        line-height: 2;
+        line-height: 1.8;
         color: white;
+        @include desktop {
+          line-height: 2;
+          width: 40px;
+          height: 40px;
+        }
       }
       .title {
         font-weight: bold;

@@ -14,9 +14,14 @@
 
 @mixin secHeading {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+
+  @include desktop {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
 }
 
 @mixin secRead {
