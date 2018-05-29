@@ -99,6 +99,9 @@
       width: 17vw;
       left: 59%;
       top: 20%;
+      @include desktop {
+        min-width: 200px;
+      }
 
     }
     .leaf6 {
@@ -106,12 +109,18 @@
       width: 16vw;
       left: 22vw;
       top: 27%;
+      @include desktop {
+        min-width: 180px;
+      }
     }
     .leaf7 {
       @include leaf;
       width: 14vw;
       left: 19vw;
       top: 51%;
+      @include desktop {
+        min-width: 140px;
+      }
     }
     .leaf8 {
       @include leaf;

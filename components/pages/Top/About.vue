@@ -1,5 +1,7 @@
 <template>
   <section class="p-about">
+    <img src="~assets/images/leaf4.svg" class="leaf4">
+    <img src="~assets/images/leaf6.svg" class="leaf6">
     <div class="p-about_frame"/>
     <div class="c-container">
       <img src="~assets/images/logo.svg" class="p-about_logo">
@@ -49,10 +51,14 @@
   @import "~/assets/scss/library/_variable.scss";
   @import "~/assets/scss/library/_mixin.scss";
 
+  @mixin leaf {
+    position: absolute;
+    max-width: 180px;
+  }
+
   .p-about {
     @include secPadding;
     padding-top: 80px;
-
     width: 100%;
     background: $clr_bg-Green;
     background-image: url("~assets/images/about_background.png");
@@ -60,6 +66,21 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+
+    .leaf4 {
+      @include leaf;
+      width: 15vw;
+      bottom: 0;
+      left: 10vw;
+
+    }
+    .leaf6 {
+      @include leaf;
+      width: 10vw;
+      top: 40%;
+      right: 8vw;
+
+    }
 
     &_frame {
       width: 100vw;

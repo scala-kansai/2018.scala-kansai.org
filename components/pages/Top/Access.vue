@@ -1,5 +1,9 @@
 <template>
   <section class="p-access">
+    <img src="~assets/images/leaf4.svg" class="leaf4">
+    <img src="~assets/images/leaf6.svg" class="leaf6">
+    <img src="~assets/images/leaf3.svg" class="leaf3">
+    <img src="~assets/images/leaf5.svg" class="leaf5">
     <div class="c-container">
       <h3 class="p-access_heading">アクセス</h3>
       <div class="p-access_read">
@@ -57,9 +61,44 @@
   @import "~/assets/scss/library/_variable.scss";
   @import "~/assets/scss/library/_mixin.scss";
 
+  @mixin leaf {
+    position: absolute;
+    max-width: 180px;
+  }
+
   .p-access {
     @include secPadding;
     background: $clr_bg-Green;
+    position: relative;
+
+    .leaf3 {
+      @include leaf;
+      width: 25vw;
+      top: 1%;
+      right: 10vw;
+    }
+    .leaf4 {
+      @include leaf;
+      width: 10vw;
+      bottom: -40px;
+      right: 5vw;
+
+
+    }
+    .leaf5 {
+      @include leaf;
+      width: 15vw;
+      bottom: 50px;
+      left: 5vw;
+
+    }
+    .leaf6 {
+      @include leaf;
+      width: 12vw;
+      top: 150px;
+      left: 10vw;
+
+    }
 
     &_heading {
       @include secHeading;
@@ -70,7 +109,7 @@
     }
 
     &_list {
-
+      position: relative;
     }
 
     &_listItem {

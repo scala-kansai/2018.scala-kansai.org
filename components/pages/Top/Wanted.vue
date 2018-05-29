@@ -1,5 +1,7 @@
 <template>
   <section class="p-wanted">
+    <img src="~assets/images/leaf5.svg" class="leaf5">
+    <img src="~assets/images/leaf7.svg" class="leaf7">
     <div class="c-container">
       <h3 class="p-wanted_heading">スピーカー&スポンサー募集</h3>
       <div class="p-wanted_read">
@@ -48,9 +50,30 @@
   @import "~/assets/scss/library/_variable.scss";
   @import "~/assets/scss/library/_mixin.scss";
 
+  @mixin leaf {
+    position: absolute;
+    max-width: 180px;
+  }
+
   .p-wanted {
     @include secPadding;
     background: $clr_bg-lightOrange;
+    position: relative;
+
+    .leaf5 {
+      @include leaf;
+      width: 18vw;
+      bottom: -5%;
+      left: 20vw;
+
+    }
+    .leaf7 {
+      @include leaf;
+      width: 13vw;
+      top: -3%;
+      right: 14vw;
+
+    }
 
     .btn {
       @include btnIcon();

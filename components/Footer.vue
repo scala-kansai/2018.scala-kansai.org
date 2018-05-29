@@ -1,6 +1,9 @@
 <template>
   <div class="l-footer">
     <div class="p-share">
+      <img src="~assets/images/leaf6.svg" class="leaf6">
+      <img src="~assets/images/leaf5.svg" class="leaf5">
+      <img src="~assets/images/leaf9.svg" class="leaf9">
       <div class="c-container">
         <h3 class="p-share_heading">SNSでシェア</h3>
         <div class="p-share_read">
@@ -51,12 +54,44 @@
 <style lang="scss" scoped>
   @import "~/assets/scss/library/_variable.scss";
   @import "~/assets/scss/library/_mixin.scss";
+  @mixin leaf {
+    position: absolute;
+    max-width: 180px;
+  }
+
   .l-footer {
       
     .p-share {
       @include secPadding;
       background: $clr_bg-cream;
       text-align: center;
+      position: relative;
+
+      .leaf6 {
+        @include leaf;
+        width: 18vw;
+        top: 30px;
+        left: 13vw;
+
+      }
+      .leaf5 {
+        @include leaf;
+        width: 15vw;
+        top: 10px;
+        right: 8vw;
+
+      }
+      .leaf9 {
+        @include leaf;
+        width: 10vw;
+        top: 50%;
+        right: 15vw;
+
+      }
+
+      .c-container {
+        position: relative;
+      }
 
       &_heading {
         @include secHeading;
