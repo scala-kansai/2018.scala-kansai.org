@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="242px" viewBox="0 0 1439 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>hero_bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="top" transform="translate(-1.000000, -956.000000)" fill="#FFEBB8">
+            <g id="sec_hero">
+                <g id="background" transform="translate(0.000000, 956.000000)">
+                    <g id="Group-4">
+                        <path d="M1440,339 C1440,310.614778 1440,278.127284 1440,241.537519 C1210,13.0939907 945.687285,2 720,2 C481.779831,2 230.728669,13.0618618 1,240.545789 L1,0 L1441,0 L1441,339 L1440,339 Z" id="hero_bottom"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
