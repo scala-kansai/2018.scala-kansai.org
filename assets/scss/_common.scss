@@ -44,6 +44,10 @@ body{
   text-align: center;
 }
 
+*::selection {
+  background: $clr_bg-orange;
+}
+
 a {
   text-decoration: none;
   color: inherit;

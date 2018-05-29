@@ -146,6 +146,7 @@
       margin-bottom: 20px;
       font-size: 4rem;
       font-weight: bold;
+      letter-spacing: 2px;
       line-height: 1.4;
 
     }
