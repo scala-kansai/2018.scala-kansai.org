@@ -3,7 +3,7 @@
     <img src="~assets/images/leaf5.svg" class="leaf5">
     <img src="~assets/images/leaf7.svg" class="leaf7">
     <div class="c-container">
-      <h3 class="p-wanted_heading">スピーカー&スポンサー募集</h3>
+      <h3 class="p-wanted_heading">スピーカー &amp; スポンサー募集</h3>
       <div class="p-wanted_read">
         Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
       </div>

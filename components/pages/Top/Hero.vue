@@ -26,7 +26,7 @@
         今年は2日間に渡っての開催となります！
       </div>
       <div class="p-hero_now">
-        <a href="">スピーカー・スポンサー募集中！</a>
+        <a href="">スピーカー &amp; スポンサー募集中！</a>
       </div>
       <div class="p-hero_share">
         <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
