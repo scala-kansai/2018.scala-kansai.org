@@ -1,6 +1,8 @@
 <template>
   <section class="p-about">
+    <div class="p-about_frame"/>
     <div class="c-container">
+      <img src="~assets/images/logo.svg" class="p-about_logo">
       <h3 class="p-about_heading">Scala関西Summit2018について</h3>
       <div class="p-about_read">
         Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
@@ -8,8 +10,8 @@
       <div class="p-about_list">
         <div class="p-about_listItem">
           <div class="row">
-            <div class="col-4 detail">
-              <img src="" alt="session">
+            <div class="col-auto detail">
+              <img class="img" src="~assets/images/about_session.png" alt="session">
             </div>
             <div class="col">
               <h3 class="title">
@@ -22,15 +24,15 @@
         </div>
         <div class="p-about_listItem">
           <div class="row">
+            <div class="col-auto">
+              <img class="img" src="~assets/images/about_unConf.png" alt="unConference">
+            </div>
             <div class="col">
               <h3 class="title">
                 <span class="day">2日目</span>
                 アンカンファレンス
               </h3>
               <p class="description">Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）</p>
-            </div>
-            <div class="col-4">
-              <img src="" alt="unConference">
             </div>
           </div>
         </div>
@@ -41,11 +43,6 @@
 
 <script>
 
-  export default  {
-    components: {
-
-    }
-  }
 </script>
 
 <style lang="scss" scoped>
@@ -54,7 +51,37 @@
 
   .p-about {
     @include secPadding;
+    padding-top: 80px;
+
+    width: 100%;
     background: $clr_bg-Green;
+    background-image: url("~assets/images/about_background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+    &_frame {
+      width: 100vw;
+      background-image: url("~assets/images/hero_bottom.svg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      z-index: 1000;
+      &::before {
+        content: "";
+        display: block;
+        padding-top: 17%;
+      }
+
+    }
+    &_logo {
+      margin-bottom: 30px;
+      width: 60%;
+      max-width: 650px;
+    }
 
     &_heading {
       @include secHeading;
@@ -77,7 +104,9 @@
       .detail{
         text-align: left;
       }
-
+      .img {
+        max-width: 130px;
+      }
       .title {
         margin: 0;
         font-size: 2.3rem;
