@@ -1,10 +1,14 @@
 <template>
   <section class="p-hero">
     <div class="c-container">
-      <h3 class="p-hero_heading">ヒーローセクション</h3>
+      <h3 class="p-hero_heading">関西最大級Scalaカンファレンス</h3>
       <div class="p-hero_read">
-        Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
+        2018年  11月 10日 ( 土 )  -  11日 ( 日 )　大阪にて開催！
+        <br>
+        今年は2日間に渡っての開催となります！
       </div>
+      <p>スピーカー・スポンサー募集中！</p>
+      <p>SNSでシェア</p>
     </div>
   </section>
 </template>

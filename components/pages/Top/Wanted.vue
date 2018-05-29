@@ -71,9 +71,10 @@
 
       .title {
         margin-bottom: .5em;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-weight: bold;
         i {
+          font-size: 2rem;
           margin-right: .2em;
           color: $clr_brown;
         }
