@@ -79,7 +79,7 @@
     }
 
     &_listItem {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       box-sizing: border-box;
       text-align: center;
       background: white;

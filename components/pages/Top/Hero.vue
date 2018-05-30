@@ -25,7 +25,7 @@
         <br>
         今年は2日間に渡っての開催となります！
       </div>
-      <a href="" class="p-hero_now">
+      <a href="#p-wanted" class="p-hero_now">
         スピーカー &amp; スポンサー募集中！
       </a>
       <div class="p-hero_share">

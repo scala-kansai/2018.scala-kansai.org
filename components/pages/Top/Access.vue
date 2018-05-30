@@ -11,7 +11,9 @@
       </div>
       <div class="p-access_list">
         <div class="p-access_listItem">
-          <div class="map">マップが入る</div>
+          <div class="mapArea">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.00535833887!2d135.5116563157123!3d34.70504479049216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c65a212a67%3A0x29b74f158dc09739!2z5aSn6Ziq5aSp5rqA56CU5L-u44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1527664830140" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
           <div class="detail">
             <div class="title">
               <span class="day">1日目</span>
@@ -23,11 +25,13 @@
               <li>地下鉄堺筋線「扇町駅」 1番出口 より徒歩７分</li>
               <li>地下鉄谷町線「天神橋筋六丁目駅」 12番出口より徒歩10分</li>
             </ul>
-            <a href="#" class="link" target="_blank">Googleマップで開く</a>
+            <a href="https://goo.gl/maps/3t8k2vZp4xq" class="link" target="_blank">Googleマップで開く</a>
           </div>
         </div>
         <div class="p-access_listItem">
-          <div class="map">マップが入る</div>
+          <div class="mapArea">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313.7435464286166!2d135.49451015203658!3d34.70446987236609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e721f00199e5%3A0x627d8007a7d27230!2z44GV44GP44KJ44Kk44Oz44K_44O844ON44OD44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sus!4v1527665206765" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
           <div class="detail">
             <div class="title">
               <span class="day">2日目</span>
@@ -40,7 +44,7 @@
               <li>阪神「梅田駅」、阪急「梅田駅」より徒歩10分</li>
               <li>地下鉄四つ橋線「西梅田駅」、地下鉄谷町線「東梅田駅」、JR「北新地駅」より徒歩13分</li>
             </ul>
-            <a href="#" class="link" target="_blank">Googleマップで開く</a>
+            <a href="https://goo.gl/maps/poGvnuveHZt" class="link" target="_blank">Googleマップで開く</a>
           </div>
         </div>
       </div>
@@ -136,24 +140,40 @@
     &_listItem {
       margin-bottom: 60px;
       text-align: left;
-
+      .mapArea {
+        width: 100%;
+        height: 250px;
+        @include desktop {
+          height: 400px;
+        }
+      }
       .map {
-        background: red;
+        width: 100%;
+        height: 100%;
       }
 
       .detail {
-        padding: 20px 40px 40px;
+        padding: 20px 35px 40px;
         background: white;
+        @include desktop {
+          padding: 20px 40px 40px;
+        }
       }
 
       .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: bold;
+        @include desktop {
+          font-size: 2rem;
+        }
       }
       .day {
         margin-right: .5em;
         font-weight: normal;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        @include desktop {
+          font-size: 2rem;
+        }
       }
       .list {
         margin-bottom: 2em;

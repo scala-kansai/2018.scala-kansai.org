@@ -30,7 +30,7 @@
           Gold
         </div>
         <div class="row">
-          <div class="list col-6">
+          <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -43,7 +43,7 @@
               </router-link>
             </div>
           </div>
-          <div class="list col-6">
+          <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -56,7 +56,7 @@
               </router-link>
             </div>
           </div>
-          <div class="list col-6">
+          <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -76,7 +76,7 @@
           Silver
         </div>
         <div class="row">
-          <div class="list col-4">
+          <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -87,7 +87,7 @@
               </router-link>
             </div>
           </div>
-          <div class="list col-4">
+          <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -98,7 +98,7 @@
               </router-link>
             </div>
           </div>
-          <div class="list col-4">
+          <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -109,7 +109,7 @@
               </router-link>
             </div>
           </div>
-          <div class="list col-4">
+          <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -127,49 +127,49 @@
           Bronze
         </div>
         <div class="row">
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
               </div>
             </div>
           </div>
-          <div class="list col-3">
+          <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -213,14 +213,11 @@ export default  {
     .row {
       justify-content: flex-start;
     }
-    .col,.col-3,.col-4,.col-6 {
-      box-sizing: border-box;
-    }
     .btn {
       display: block;
       width: 100%;
       padding: 1em 0;
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       font-weight: bold;
       color: white;
       text-decoration: none;
@@ -244,17 +241,18 @@ export default  {
     }
 
     .company {
-      display: inline-block;
+      display: block;
       margin: 0 0 .5em;
-      border-bottom: 1px solid rgba(127,91,90,.5);
       padding-bottom: .1em;
       font-size: 2rem;
       font-weight: bold;
       color: $clr_brown;
+      text-align: left;
 
     }
 
     .list {
+      box-sizing: border-box;
       text-align: center;
 
     }
@@ -283,7 +281,10 @@ export default  {
     }
 
     &_platinum {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
+      @include desktop {
+        margin-bottom: 60px;
+      }
 
       @include desktop {
 
@@ -314,31 +315,46 @@ export default  {
 
         .description {
           display: inline-block;
-          max-width: 600px;
+          width: 100%;
           box-sizing: border-box;
+
+          @include desktop {
+            max-width: 600px;
+          }
         }
 
       }
     }
 
     &_gold {
+      margin-bottom: 30px;
+      @include desktop {
+        margin-bottom: 60px;
+      }
       .list {
-        text-align: center;
 
       }
       .listItem {
         .inner {
-          max-width: 360px;
+          max-width: 100%;
+          @include desktop {
+            max-width: 360px;
+          }
         }
         .thumb {
-          display: inline-block;
+          display: block;
+          margin: 0 auto;
           margin-bottom: 15px;
           width: 100%;
-          max-width: 300px;
+          max-width: 200px;
           background-image: url("http://placehold.it/300x240");
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
+
+          @include desktop {
+            max-width: 300px;
+          }
 
           &::before {
             content: "";
@@ -346,27 +362,51 @@ export default  {
             padding-top: 80%;
           }
         }
-        .description {
-          display: inline-block;
-          max-width: 330px;
-          box-sizing: border-box;
-        }
       }
     }
 
     &_silver {
+      margin-bottom: 30px;
+      @include desktop {
+        margin-bottom: 60px;
+      }
+
+      .list {
+        box-sizing: border-box;
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
       .listItem {
+        margin-bottom: 20px;
+        padding-top: 30px;
+
+        @include desktop {
+          margin-bottom: 30px;
+        }
+
         .inner {
-          max-width: 260px;
+          margin-bottom: 20px;
+          width: 100%;
+          padding: 0 20px;
+          @include desktop {
+            max-width: 260px;
+          }
         }
         .thumb {
-          display: inline-block;
+          display: block;
+          margin: 0 auto;
           width: 100%;
-          max-width: 200px;
+          max-width: 160px;
           background-image: url("http://placehold.it/200x160");
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
+
+          @include desktop {
+            max-width: 200px;
+          }
 
           &::before {
             content: "";
@@ -377,17 +417,44 @@ export default  {
       }
     }
     &_bronze {
+      margin-bottom: 30px;
+      @include desktop {
+        margin-bottom: 60px;
+      }
+
+      .list {
+        box-sizing: border-box;
+        width: calc( 100% / 3 );
+        padding-right: 5px;
+        padding-left: 5px;
+
+        @include desktop {
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+
+      }
+
       .listItem {
-        padding-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        @include desktop {
+          margin-bottom: 30px;
+          padding-top: 20px;
+        }
         .inner {
-          margin-bottom: 20px;
+          margin-bottom: 5px;
           max-width: 220px;
           text-align: center;
-          padding: 0 20px;
+          padding: 0 10px;
+          @include desktop {
+            margin-bottom: 20px;
+            padding: 0 20px;
+          }
         }
         .thumb {
-          display: inline-block;
-          width: 100%;
+          display: block;
+          margin: 0 auto;
           max-width: 160px;
           background-image: url("http://placehold.it/160x128");
           background-repeat: no-repeat;

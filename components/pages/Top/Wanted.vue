@@ -1,5 +1,5 @@
 <template>
-  <section class="p-wanted">
+  <section id="p-wanted" class="p-wanted">
     <img src="~assets/images/leaf5.svg" class="leaf5">
     <img src="~assets/images/leaf7.svg" class="leaf7">
     <div class="c-container">
