@@ -105,6 +105,7 @@
     &_logo {
       margin-bottom: 30px;
       width: 75%;
+      max-width: 300px;
       @include desktop {
         width: 60%;
         max-width: 650px;
@@ -133,7 +134,10 @@
         text-align: left;
       }
       .img {
-        max-width: 130px;
+        max-width: 100px;
+        @include desktop {
+          max-width: 130px;
+        }
       }
       .title {
         margin: 0;
