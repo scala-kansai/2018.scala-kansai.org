@@ -82,6 +82,7 @@
       right: 5vw;
 
       @include desktop {
+        max-width: 300px;
         width: 25vw;
         top: 1%;
         right: 10vw;
@@ -94,8 +95,8 @@
       bottom: -40px;
       right: 5vw;
       @include desktop {
+        max-width: 200px;
         width: 10vw;
-        max-width: 100%;
       }
     }
     .leaf5 {
@@ -107,7 +108,7 @@
 
       @include desktop {
         width: 15vw;
-        max-width: 100%;
+        max-width: 250px;
       }
 
     }
@@ -119,7 +120,7 @@
       left: 10vw;
       @include desktop {
         width: 12vw;
-        max-width: 100%;
+        max-width: 200px;
         top: 150px;
       }
 

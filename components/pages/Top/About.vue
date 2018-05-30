@@ -79,7 +79,7 @@
       left: 10vw;
       @include desktop {
         width: 15vw;
-        max-width: 100%;
+        max-width: 200px;
         bottom: 0;
       }
 
@@ -92,7 +92,7 @@
       right: 8vw;
 
       @include desktop {
-        max-width: 100%;
+        max-width: 200px;
         width: 10vw;
         top: 40%;
       }

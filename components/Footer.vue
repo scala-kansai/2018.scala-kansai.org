@@ -79,7 +79,7 @@
         left: 20px;
         @include desktop {
           width: 18vw;
-          max-width: 100%;
+          max-width: 200px;
           top: 30px;
           left: 13vw
         }
@@ -93,7 +93,7 @@
         right: 0;
         @include desktop {
           width: 15vw;
-          max-width: 100%;
+          max-width: 200px;
           top: 10px;
           right: 8vw;
         }
@@ -107,7 +107,7 @@
         right: 30px;
         @include desktop {
           width: 10vw;
-          max-width: 100%;
+          max-width: 150px;
           top: 50%;
           right: 15vw;
         }
