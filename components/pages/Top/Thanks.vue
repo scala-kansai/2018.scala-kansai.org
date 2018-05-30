@@ -5,7 +5,7 @@
         Special Thanks
       </div>
       <div class="p-thanks_list row">
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="p-thanks_listItem">
             <div class="inner">
               <a href="#" ><div class="thumb"/></a>
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="p-thanks_listItem">
             <div class="inner">
               <a href="#" ><div class="thumb"/></a>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="p-thanks_listItem">
             <div class="inner">
               <a href="#" ><div class="thumb"/></a>
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="p-thanks_listItem">
             <div class="inner">
               <a href="#" ><div class="thumb"/></a>
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <div class="p-thanks_listItem">
             <div class="inner">
               <a href="#" ><div class="thumb"/></a>
@@ -66,8 +66,12 @@
     .row {
 
     }
-    .col,.col-3,.col-4,.col-6 {
+    .col-sm-3 {
       box-sizing: border-box;
+      width: 50%;
+      @include desktop {
+        max-width: 25%;
+      }
     }
 
     &_list {
@@ -90,8 +94,9 @@
       }
 
       .thumb {
+        margin: 0 auto;
         margin-bottom: 10px;
-        display: inline-block;
+        display: block;
         width: 100%;
         max-width: 160px;
         background-image: url("http://placehold.it/160x128");

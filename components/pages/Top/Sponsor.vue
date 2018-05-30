@@ -10,7 +10,7 @@
           Platinum
         </div>
         <div class="row">
-          <div class="list col-10">
+          <div class="list col-md-10">
             <div class="listItem">
               <div class="inner">
                 <a href="#" ><div class="thumb"/></a>
@@ -124,7 +124,7 @@
       </div>
       <div class="p-sponsor_bronze">
         <div class="title">
-          Silver
+          Bronze
         </div>
         <div class="row">
           <div class="list col-3">
@@ -220,12 +220,18 @@ export default  {
       display: block;
       width: 100%;
       padding: 1em 0;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      font-weight: bold;
       color: white;
       text-decoration: none;
       background: $clr_accent;
       cursor: pointer;
       transition: opacity .3s;
+
+      @include desktop {
+        font-size: 1.8rem;
+        font-weight: normal;
+      }
 
       :hover {
         opacity: .9;
@@ -241,7 +247,7 @@ export default  {
       display: inline-block;
       margin: 0 0 .5em;
       border-bottom: 1px solid rgba(127,91,90,.5);
-      padding-bottom: .3em;
+      padding-bottom: .1em;
       font-size: 2rem;
       font-weight: bold;
       color: $clr_brown;
@@ -255,21 +261,33 @@ export default  {
     .listItem {
       margin-bottom: 40px;
       box-sizing: border-box;
-      padding: 50px 0 0;
+      padding: 40px 0 0;
       text-align: center;
       background: white;
+      @include desktop {
+        padding: 50px 0 0;
+      }
+
       .inner {
         width: 100%;
-        margin: 0 auto 40px;
+        margin: 0 auto 30px;
         padding: 0 30px;
         display: inline-block;
         text-align: left;
         box-sizing: border-box;
+
+        @include desktop {
+          margin: 0 auto 40px;
+        }
       }
     }
 
     &_platinum {
       margin-bottom: 60px;
+
+      @include desktop {
+
+      }
       .row {
         justify-content: center;
       }
