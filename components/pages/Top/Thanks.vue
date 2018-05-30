@@ -4,32 +4,48 @@
       <div class="p-thanks_title">
         Special Thanks
       </div>
-      <ul class="p-thanks_list row">
-        <li class="col">
+      <div class="p-thanks_list row">
+        <div class="col-3">
           <div class="p-thanks_listItem">
-            <a href="#" ><div class="thumb"/></a>
-            <span class="work">Logo Desiginer</span>
+            <div class="inner">
+              <a href="#" ><div class="thumb"/></a>
+              <span class="work">Logo Desiginer</span>
+            </div>
           </div>
-        </li>
-        <li class="col">
+        </div>
+        <div class="col-3">
           <div class="p-thanks_listItem">
-            <a href="#" ><div class="thumb"/></a>
-            <span class="work">Logo Desiginer</span>
+            <div class="inner">
+              <a href="#" ><div class="thumb"/></a>
+              <span class="work">Logo Desiginer</span>
+            </div>
           </div>
-        </li>
-        <li class="col">
+        </div>
+        <div class="col-3">
           <div class="p-thanks_listItem">
-            <a href="#" ><div class="thumb"/></a>
-            <span class="work">Logo Desiginer</span>
+            <div class="inner">
+              <a href="#" ><div class="thumb"/></a>
+              <span class="work">Logo Desiginer</span>
+            </div>
           </div>
-        </li>
-        <li class="col">
+        </div>
+        <div class="col-3">
           <div class="p-thanks_listItem">
-            <a href="#" ><div class="thumb"/></a>
-            <span class="work">Logo Desiginer</span>
+            <div class="inner">
+              <a href="#" ><div class="thumb"/></a>
+              <span class="work">Logo Desiginer</span>
+            </div>
           </div>
-        </li>
-      </ul>
+        </div>
+        <div class="col-3">
+          <div class="p-thanks_listItem">
+            <div class="inner">
+              <a href="#" ><div class="thumb"/></a>
+              <span class="work">Logo Desiginer</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -47,24 +63,38 @@
     &_title {
       @include title-border;
     }
+    .row {
+
+    }
+    .col,.col-3,.col-4,.col-6 {
+      box-sizing: border-box;
+    }
 
     &_list {
-      margin: 0 auto;
-      list-style: none;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
 
     &_listItem {
-      padding: 20px 18px;
+      margin-bottom: 40px;
+      box-sizing: border-box;
       text-align: center;
       background: white;
+      .inner {
+        width: 100%;
+        padding: 20px;
+        display: inline-block;
+        text-align: center;
+        color: $clr_brown;
+        font-weight: bold;
+        box-sizing: border-box;
+      }
 
       .thumb {
+        margin-bottom: 10px;
         display: inline-block;
-        margin-bottom: 15px;
         width: 100%;
-        max-width: 180px;
-        background-image: url("http://placehold.it/200x160");
+        max-width: 160px;
+        background-image: url("http://placehold.it/160x128");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -74,14 +104,11 @@
           display: block;
           padding-top: 80%;
         }
+        .work {
+          font-weight: bold;
+          color: $clr_brown;
+        }
       }
-      .work {
-        font-weight: bold;
-        color: $clr_brown;
-      }
-
     }
-
-
   }
 </style>

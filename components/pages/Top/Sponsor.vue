@@ -134,6 +134,48 @@
               </div>
             </div>
           </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="list col-3">
+            <div class="listItem">
+              <div class="inner">
+                <a href="#" ><div class="thumb"/></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -219,9 +261,10 @@ export default  {
       .inner {
         width: 100%;
         margin: 0 auto 40px;
-        padding: 0 20px;
+        padding: 0 30px;
         display: inline-block;
         text-align: left;
+        box-sizing: border-box;
       }
     }
 
@@ -232,7 +275,7 @@ export default  {
       }
       .listItem {
         .inner {
-          max-width: 600px;
+          max-width: 660px;
         }
         .thumb {
           display: inline-block;
@@ -267,7 +310,7 @@ export default  {
       }
       .listItem {
         .inner {
-          max-width: 300px;
+          max-width: 360px;
         }
         .thumb {
           display: inline-block;
@@ -296,7 +339,7 @@ export default  {
     &_silver {
       .listItem {
         .inner {
-          max-width: 200px;
+          max-width: 260px;
         }
         .thumb {
           display: inline-block;
@@ -320,8 +363,9 @@ export default  {
         padding-top: 20px;
         .inner {
           margin-bottom: 20px;
-          max-width: 160px;
+          max-width: 220px;
           text-align: center;
+          padding: 0 20px;
         }
         .thumb {
           display: inline-block;

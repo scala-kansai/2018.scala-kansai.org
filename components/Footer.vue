@@ -21,14 +21,18 @@
     </div>
     <div class="p-official">
       <div class="c-container">
-        <h3 class="p-official_heading">公式アカウントをフォローして最新情報をチェック！</h3>
+        <h3 class="p-official_heading">
+          公式アカウントをフォローして
+          <br>
+          最新情報をチェック！
+        </h3>
         <div class="p-official_social">
           <div class="p-official_socialIcon">
             <i class="fab fa-twitter"></i>
           </div>
           <div class="p-official_socialAccount">
-            <a href="" target="_blank">@ScalaKansai</a>
-            <p>ハッシュタグ <a href="" target="_blank">#scala_ks</a></p>
+            <a href="https://twitter.com/scalakansai" target="_blank">@ScalaKansai</a>
+            <p>ハッシュタグ <a href="https://twitter.com/hashtag/scala_ks?src=hash" target="_blank">#scala_ks</a></p>
           </div>
         </div>
         <div class="p-official_contact">
@@ -69,23 +73,44 @@
 
       .leaf6 {
         @include leaf;
-        width: 18vw;
-        top: 30px;
-        left: 13vw;
+        width: 20vw;
+        max-width: 80px;
+        top: 20px;
+        left: 20px;
+        @include desktop {
+          width: 18vw;
+          max-width: 100%;
+          top: 30px;
+          left: 13vw
+        }
 
       }
       .leaf5 {
         @include leaf;
-        width: 15vw;
-        top: 10px;
-        right: 8vw;
+        width: 30vw;
+        max-width: 80px;
+        top: -15px;
+        right: 0;
+        @include desktop {
+          width: 15vw;
+          max-width: 100%;
+          top: 10px;
+          right: 8vw;
+        }
 
       }
       .leaf9 {
         @include leaf;
-        width: 10vw;
-        top: 50%;
-        right: 15vw;
+        width: 20vw;
+        max-width: 80px;
+        bottom: 10px;
+        right: 30px;
+        @include desktop {
+          width: 10vw;
+          max-width: 100%;
+          top: 50%;
+          right: 15vw;
+        }
 
       }
 
@@ -101,8 +126,13 @@
         @include secRead;
       }
       &_tiwtter {
-        margin-right: 1rem;
+        margin-bottom: 1em;
         @include btnIcon(white,$clr_twitter);
+
+        @include desktop {
+          margin-bottom: 0;
+          margin-right: 1rem;
+        }
       }
       &_facebook{
         @include btnIcon(white,$clr_facebook);
@@ -120,16 +150,20 @@
        }
 
        &_social {
-         border-bottom: 1px solid rgba(255,255,255,.8);
+         border-bottom: 2px dashed rgba(0,0,0,.1);
          margin-bottom: 30px;
-         padding-bottom: 40px;
+         padding-bottom: 30px;
          display: flex;
          align-items: center;
        }
        &_socialIcon {
-         width: 40%;
+         width: 30%;
+
          text-align: right;
          font-size: 4rem;
+         @include desktop {
+           width: 40%;
+         }
        }
        &_socialAccount {
          padding-left: 30px;
@@ -137,12 +171,15 @@
          text-align: left;
 
          a {
+           padding-bottom: .1em;
+           border-bottom: 1px solid rgba(255,255,255,.8);
            font-weight: bold;
          }
        }
        &_contact {
          a {
-           text-decoration: underline;
+           padding-bottom: .1em;
+           border-bottom: 1px solid rgba(255,255,255,.8);
          }
        }
      }
@@ -165,7 +202,7 @@
       justify-content: space-between;
 
       a {
-        text-decoration: underline;
+        border-bottom: 1px solid rgba(255,255,255,.8);
       }
     }
   }

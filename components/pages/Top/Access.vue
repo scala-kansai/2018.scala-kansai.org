@@ -73,30 +73,51 @@
 
     .leaf3 {
       @include leaf;
-      width: 25vw;
-      top: 1%;
-      right: 10vw;
+      width: 30vw;
+      top: -20px;
+      right: 5vw;
+
+      @include desktop {
+        width: 25vw;
+        top: 1%;
+        right: 10vw;
+      }
     }
     .leaf4 {
       @include leaf;
-      width: 10vw;
+      width: 20vw;
+      max-width: 100px;
       bottom: -40px;
       right: 5vw;
-
-
+      @include desktop {
+        width: 10vw;
+        max-width: 100%;
+      }
     }
     .leaf5 {
       @include leaf;
-      width: 15vw;
+      width: 20vw;
+      max-width: 100px;
       bottom: 50px;
       left: 5vw;
+
+      @include desktop {
+        width: 15vw;
+        max-width: 100%;
+      }
 
     }
     .leaf6 {
       @include leaf;
-      width: 12vw;
-      top: 150px;
+      width: 20vw;
+      max-width: 100px;
+      top: 30%;
       left: 10vw;
+      @include desktop {
+        width: 12vw;
+        max-width: 100%;
+        top: 150px;
+      }
 
     }
 
