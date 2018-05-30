@@ -11,16 +11,16 @@ module.exports = {
       { hid: 'description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！'  },
 
       { property: 'og:title', content: 'Scala関西Summit 2018' },
-      { property: 'og:type', content: 'article' },
-      { property: 'og:image', content: 'https://scala-kansai2018.netlify.com/ogp.jpg' },
-      { property: 'og:url', content: 'https://scala-kansai2018.netlify.com/' },
+      { property: 'og:type', content: 'website' },
       { property: 'og:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
+      { property: 'og:url', content: 'https://scala-kansai2018.netlify.com/' },
+      { property: 'og:image', content: 'https://scala-kansai2018.netlify.com/ogp.jpg' },
 
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:url', content: 'https://scala-kansai2018.netlify.com/' },
       { name: 'twitter:title', content: 'Scala関西Summit 2018' },
       { name: 'twitter:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
-      { name: 'twitter:image', content: 'https://scala-kansai2018.netlify.com/ogp.jpg' },
+      { name: 'twitter:image', content: 'https://scala-kansai2018.netlify.com/ogp.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
