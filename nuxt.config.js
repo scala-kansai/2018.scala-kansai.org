@@ -12,11 +12,11 @@ module.exports = {
 
       { property: 'og:title', content: 'Scala関西Summit 2018' },
       { property: 'og:image', content: 'https://scala-kansai2018.netlify.com/images/ogp.jpg' },
-      { property: 'og:url', content: 'http://summit.scala-kansai.org/' },
+      { property: 'og:url', content: 'https://scala-kansai2018.netlify.com/' },
       { property: 'og:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
 
       { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:url', content: 'http://summit.scala-kansai.org/' },
+      { name: 'twitter:url', content: 'https://scala-kansai2018.netlify.com/' },
       { name: 'twitter:title', content: 'Scala関西Summit 2018' },
       { name: 'twitter:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
       { name: 'twitter:image', content: 'https://scala-kansai2018.netlify.com/images/ogp.jpg' },
