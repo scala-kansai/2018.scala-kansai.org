@@ -11,6 +11,7 @@ module.exports = {
       { hid: 'description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！'  },
 
       { property: 'og:title', content: 'Scala関西Summit 2018' },
+      { property: 'og:type', content: 'article' },
       { property: 'og:image', content: 'https://scala-kansai2018.netlify.com/ogp.jpg' },
       { property: 'og:url', content: 'https://scala-kansai2018.netlify.com/' },
       { property: 'og:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },

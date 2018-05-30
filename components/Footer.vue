@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="p-official_contact">
-          当イベントに関するお問い合わせは<a href="" target="_blank">こちら</a>のフォームからお願いします。
+          当イベントに関するお問い合わせは<a href="http://goo.gl/forms/0jgvS6ufhL" target="_blank">こちら</a>のフォームからお願いします。
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
          text-align: right;
          font-size: 4rem;
          @include desktop {
-           width: 40%;
+           width: 46%;
          }
        }
        &_socialAccount {
