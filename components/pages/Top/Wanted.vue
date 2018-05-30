@@ -8,7 +8,7 @@
         Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
       </div>
       <div class="p-wanted_list row">
-        <div class="col">
+        <div class="col-md">
           <div class="p-wanted_listItem">
             <div class="title">
               <i class="fas fa-microphone"></i>
@@ -20,7 +20,7 @@
               スピーカー申込み</a>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="p-wanted_listItem">
             <div class="title">
               <i class="fas fa-star"></i>
@@ -62,16 +62,29 @@
 
     .leaf5 {
       @include leaf;
-      width: 18vw;
-      bottom: -5%;
-      left: 20vw;
+      width: 20vw;
+      max-width: 120px;
+      bottom: -10px;
+      left: 10vw;
+      @include desktop {
+        width: 18vw;
+        max-width: 100%;
+        bottom: -5%;
+        left: 20vw;
+      }
 
     }
     .leaf7 {
       @include leaf;
-      width: 13vw;
+      width: 20vw;
+      max-width: 100px;
       top: -3%;
       right: 14vw;
+
+      @include desktop {
+        width: 13vw;
+        max-width: 100%;
+      }
 
     }
 
@@ -88,27 +101,40 @@
     }
 
     &_listItem {
+      margin-bottom: 30px;
       padding: 40px;
       border-radius: 10px;
       background: white;
 
+      @include desktop {
+        margin-bottom: 0;
+      }
+
       .title {
         margin-bottom: .5em;
-        font-size: 2.3rem;
+        font-size: 2rem;
         font-weight: bold;
+        @include desktop {
+          font-size: 2.3rem;
+        }
+
         i {
           font-size: 2rem;
           margin-right: .2em;
           color: $clr_brown;
+
         }
       }
       .description {
         margin-bottom: 2em;
       }
       .deadline {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 1.5em;
+        @include desktop {
+          font-size: 1.6rem;
+        }
       }
 
     }

@@ -47,18 +47,29 @@
 @mixin btnIcon($color:white,$backgound:$clr_accent) {
   display: inline-block;
   margin-left: 5px;
-  padding: 15px 30px;
+  padding: 13px 20px;
+  min-width: 180px;
   border-radius: 30px;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   text-decoration: none;
   color: $color;
   background: $backgound;
   cursor: pointer;
+  @include desktop {
+    padding: 13px 25px;
+    font-size: 1.7rem;
+    font-weight: normal;
+  }
+
   &:hover {
     opacity: .8;
   }
   i {
-    margin-right: .6em;
-    font-size: 1.3em;
+    margin-right: .2em;
+    font-size: 1em;
+    @include desktop {
+      margin-right: .6em;
+    }
   }
 }

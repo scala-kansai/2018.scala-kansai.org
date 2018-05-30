@@ -26,7 +26,7 @@
         </div>
         <div class="p-about_listItem">
           <div class="row">
-            <div class="col-auto">
+            <div class="col-md-auto">
               <img class="img" src="~assets/images/about_unConf.png" alt="unConference">
             </div>
             <div class="col">
@@ -73,16 +73,29 @@
 
     .leaf4 {
       @include leaf;
-      width: 15vw;
-      bottom: 0;
+      width: 20vw;
+      max-width: 80px;
+      bottom: 20px;
       left: 10vw;
+      @include desktop {
+        width: 15vw;
+        max-width: 100%;
+        bottom: 0;
+      }
 
     }
     .leaf6 {
       @include leaf;
-      width: 10vw;
-      top: 40%;
+      width: 15vw;
+      max-width: 60px;
+      top: 26%;
       right: 8vw;
+
+      @include desktop {
+        max-width: 100%;
+        width: 10vw;
+        top: 40%;
+      }
 
     }
 
@@ -134,22 +147,30 @@
         text-align: left;
       }
       .img {
+        margin-bottom: 10px;
         max-width: 100px;
         @include desktop {
+          margin-bottom: 0;
           max-width: 130px;
         }
       }
       .title {
         margin: 0;
-        font-size: 2.3rem;
+        font-size: 2rem;
         font-weight: bold;
         text-align: left;
+        @include desktop {
+          font-size: 2.3rem;
+        }
       }
       .day{
         margin-right: .5em;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: $clr_brown;
         text-align: left;
+        @include desktop {
+          font-size: 2rem;
+        }
       }
 
       .description {
