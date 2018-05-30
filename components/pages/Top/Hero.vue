@@ -32,7 +32,7 @@
         <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
-        <a class="btn" href="https://www.facebook.com/sharer.php?u=http://summit.scala-kansai.org/&amp;amp;t=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催&amp;hashtags=scala_ks" target="_blank">
+        <a class="btn" href="https://www.facebook.com/sharer.php?u=https://scala-kansai2018.netlify.com/&amp;amp;t=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催&amp;hashtags=scala_ks" target="_blank">
           <i class="fab fa-facebook-f" aria-hidden="true"></i>
         </a>
         <p class="title">SNSでシェア</p>
