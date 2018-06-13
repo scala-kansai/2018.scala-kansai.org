@@ -10,7 +10,7 @@
           <div class="list col-md-10">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
                 <a href="#" class="company">会社名</a>
                 <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
               </div>
@@ -30,7 +30,7 @@
           <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
                 <a href="#" class="company">会社名</a>
                 <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
               </div>
@@ -43,7 +43,7 @@
           <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
                 <a href="#" class="company">会社名</a>
                 <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
               </div>
@@ -56,7 +56,7 @@
           <div class="list col-sm-6">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
                 <a href="#" class="company">会社名</a>
                 <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
               </div>
@@ -76,7 +76,7 @@
           <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
               <router-link
                       to="/jobs"
@@ -87,7 +87,7 @@
           <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
               <router-link
                       to="/jobs"
@@ -98,7 +98,7 @@
           <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
               <router-link
                       to="/jobs"
@@ -109,7 +109,7 @@
           <div class="list col-sm-4">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
               <router-link
                       to="/jobs"
@@ -127,49 +127,49 @@
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
           <div class="list col-sm-3">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a href="#" ><div class="logo"/></a>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ export default  {
         .inner {
           max-width: 660px;
         }
-        .thumb {
+        .logo {
           display: inline-block;
           margin-bottom: 15px;
           width: 100%;
@@ -338,7 +338,7 @@ export default  {
             max-width: 360px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           margin-bottom: 15px;
@@ -391,7 +391,7 @@ export default  {
             max-width: 260px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           width: 100%;
@@ -449,7 +449,7 @@ export default  {
             padding: 0 20px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           max-width: 160px;

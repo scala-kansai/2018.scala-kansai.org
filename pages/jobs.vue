@@ -2,7 +2,10 @@
   <section>
     <div>
       <div class="p-job_header">
-        <img src="~assets/images/logo.svg" class="p-job_logo" alt="Scala Kansai summit2018">
+        <router-link
+          to="/">
+          <img src="~assets/images/logo.svg" class="p-job_logo" alt="Scala Kansai summit2018">
+        </router-link>
       </div>
       <div class="p-job">
         <div class="c-container">
