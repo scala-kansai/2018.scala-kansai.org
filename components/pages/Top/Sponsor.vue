@@ -2,9 +2,6 @@
   <section class="p-sponsor">
     <div class="c-container">
       <h3 class="p-sponsor_heading">スポンサー</h3>
-      <div class="p-sponsor_read">
-        Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
-      </div>
       <div class="p-sponsor_platinum">
         <div class="title">
           Platinum

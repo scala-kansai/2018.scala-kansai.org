@@ -5,7 +5,8 @@
     <div class="c-container">
       <h3 class="p-wanted_heading">スピーカー &amp; スポンサー募集</h3>
       <div class="p-wanted_read">
-        Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
+        Scala関西Summitは、Scalaにかかわるすべての人たちと一緒につくりあげていくイベントです。
+        イベント当日のコンテンツや、Scalaを利用されている企業のご支援など、ぜひご協力をお願いします。
       </div>
       <div class="p-wanted_list row">
         <div class="col-md">
@@ -13,8 +14,11 @@
             <div class="title">
               <i class="fas fa-microphone"></i>
               スピーカー募集</div>
-            <div class="description">Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）</div>
-            <div class="deadline">応募締切：8月31日（仮）</div>
+            <div class="description">
+              Scala関西Summitでは、Scalaについて話をしたいすべての人に登壇のチャンスがあります！
+              日々のお仕事や、研究・学習の成果をぜひわたしたちに聴かせてください。
+            </div>
+            <div class="deadline">応募締切：2018年8月31日</div>
             <a class="btn" href="#" target="_blank">
               <i class="fas fa-microphone"></i>
               スピーカー申込み</a>
@@ -25,8 +29,12 @@
             <div class="title">
               <i class="fas fa-star"></i>
               スポンサー募集</div>
-            <div class="description">Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）</div>
-            <div class="deadline">応募締切：8月31日（仮）</div>
+            <div class="description">
+              Scala関西Summitでは、イベントを支援してくださるスポンサーを募集します。
+              関西だけでなく、毎年日本全国から多く参加者が集まるこのイベントで、参加者とスポンサーの良い出会いがあるものと期待しています。
+              さまざまなスポンサー特典を用意していますので、ご支援よろしくお願いします。
+            </div>
+            <div class="deadline">応募締切：2018年9月30日</div>
             <a class="btn" href="#" target="_blank">
               <i class="fas fa-star"></i>
               スポンサー申込み</a>
