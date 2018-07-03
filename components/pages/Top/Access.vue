@@ -7,7 +7,9 @@
     <div class="c-container">
       <h3 class="p-access_heading">アクセス</h3>
       <div class="p-access_read">
-        Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
+        Scala関西Summitは、はじめての2日間開催となります。
+        初日のセッションと、2日目のアンカンファレンス。参加者の皆さんには移動のお手間をおかけすることになりますが、イベント形式にとって最適な会場を検討した結果、2日間それぞれで開催場所が異なります。
+        お間違えのないようよろしくお願いします。
       </div>
       <div class="p-access_list">
         <div class="p-access_listItem">

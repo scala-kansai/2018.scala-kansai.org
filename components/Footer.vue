@@ -7,7 +7,8 @@
       <div class="c-container">
         <h3 class="p-share_heading">SNSでシェア</h3>
         <div class="p-share_read">
-          Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
+          Scala関西Summitには、できるだけ多くの皆さんに参加いただきたいです！<br>
+          より多くの人にイベントを知ってもらいたいので、どうぞSNSでのシェアにご協力ください！
         </div>
         <div class="p-share_action">
           <a class="p-share_tiwtter" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
@@ -64,7 +65,7 @@
   }
 
   .l-footer {
-      
+
     .p-share {
       @include secPadding;
       background: $clr_bg-cream;
