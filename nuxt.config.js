@@ -3,23 +3,23 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '関西のScala大規模イベント！Scala関西Summit 2018 - 関西のScala大規模イベント11/10(土),11/11(日)開催',
+    title: 'Scala関西Summit 2018 - 関西最大級Scalaカンファレンス 11/10(土),11/11(日)開催',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
-      { hid: 'description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！'  },
+      { hid: 'description', content: '関西最大級Scalaカンファレンス！11/10(土),11/11(日)大阪にて開催！'  },
 
       { property: 'og:title', content: 'Scala関西Summit 2018' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
+      { property: 'og:description', content: 'Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は2日間開催です！！日程: 2018年11月10日, 11日。初日はセッション形式。2日目はアンカンファレンスになります。' },
       { property: 'og:url', content: 'http://summit.scala-kansai.org/' },
       { property: 'og:image', content: 'http://summit.scala-kansai.org/ogp.jpg' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:url', content: 'http://summit.scala-kansai.org/' },
       { name: 'twitter:title', content: 'Scala関西Summit 2018' },
-      { name: 'twitter:description', content: '関西のScala大規模イベント！11/10(土),11/11(日)大阪にて開催！' },
+      { name: 'twitter:description', content: 'Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は11月10日、11日の2日間開催！！' },
       { name: 'twitter:image', content: 'http://summit.scala-kansai.org/ogp.jpg' }
     ],
     link: [
