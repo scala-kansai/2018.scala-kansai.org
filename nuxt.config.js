@@ -53,4 +53,7 @@ module.exports = {
     "~/assets/scss/bootstrap.scss",
     "~/assets/scss/app.scss"
   ],
+  plugins:[
+    { src: '~plugins/ga.js', ssr: false }
+  ]
 }
