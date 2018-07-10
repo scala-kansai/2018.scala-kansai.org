@@ -5,43 +5,16 @@
         Special Thanks
       </div>
       <div class="p-thanks_list row">
-        <div class="col-sm-3">
+        <div
+          class="col-sm-3"
+          v-for="(thank,index) in thanks"
+          :key="index">
           <div class="p-thanks_listItem">
             <div class="inner">
-              <a href="#" ><div class="thumb"/></a>
-              <span class="work">Logo Desiginer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="p-thanks_listItem">
-            <div class="inner">
-              <a href="#" ><div class="thumb"/></a>
-              <span class="work">Logo Desiginer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="p-thanks_listItem">
-            <div class="inner">
-              <a href="#" ><div class="thumb"/></a>
-              <span class="work">Logo Desiginer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="p-thanks_listItem">
-            <div class="inner">
-              <a href="#" ><div class="thumb"/></a>
-              <span class="work">Logo Desiginer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="p-thanks_listItem">
-            <div class="inner">
-              <a href="#" ><div class="thumb"/></a>
-              <span class="work">Logo Desiginer</span>
+              <a :href="thank.url" target="_blank" rel="noopener">
+                <div class="thumb" :style="logoStyle(thank)" />
+              </a>
+              <span class="work">{{thank.title}}</span>
             </div>
           </div>
         </div>
@@ -50,7 +23,24 @@
   </section>
 </template>
 
-<script></script>
+<script>
+  export default{
+    props:{
+      thanks:{
+        type:Array,
+        default: ()=>[]
+      }
+    },
+    methods:{
+      logoStyle(thanks){
+        return {
+          backgroundImage: `url('/thanks/${thanks.image}')`
+        }
+      }
+    }
+  }
+
+</script>
 
 <style lang="scss" scoped>
   @import "~/assets/scss/library/_variable.scss";

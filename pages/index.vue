@@ -5,6 +5,7 @@
     <sec-wanted></sec-wanted>
     <sec-time-table></sec-time-table>
     <sec-access></sec-access>
+    <sec-thanks :thanks="thanks"></sec-thanks>
   </section>
 </template>
 
@@ -26,7 +27,12 @@ export default {
     secAccess,
     secSponsor,
     secThanks
-  }
+  },
+  computed:{
+    thanks(){
+      return this.$store.state.thanks
+    }
+  },
 }
 </script>
 
