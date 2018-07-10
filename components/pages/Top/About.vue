@@ -5,7 +5,7 @@
     <div class="p-about_frame"/>
     <div class="c-container">
       <img src="~assets/images/logo.svg" class="p-about_logo">
-      <h3 class="p-about_heading">Scala関西Summit2018について</h3>
+      <h3 class="p-about_heading">Scala関西Summit&nbsp;2018について</h3>
       <div class="p-about_read">
         Scala関西Summitは、Scalaをテーマとした技術カンファレンスです。初心者向けのハンズオンや、有名OSSコミッタによる講演など幅広いコンテンツを毎年用意しています。Scalaを書いたことがないけれど気になっているという人や、仕事でヘビーに使っている人など、Scalaにかかわるあらゆる人々を対象としたイベントです。
       </div>

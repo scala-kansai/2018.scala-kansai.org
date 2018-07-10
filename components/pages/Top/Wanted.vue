@@ -19,7 +19,7 @@
               日々のお仕事や、研究・学習の成果をぜひわたしたちに聴かせてください。
             </div>
             <div class="deadline">応募締切：2018年8月31日</div>
-            <a class="btn" href="#" target="_blank">
+            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSer9U30kuLodBr_7x6j2R7c0IxHfLLyiJ6f4Pe-SJWyz3GUuw/viewform?usp=sf_link" target="_blank">
               <i class="fas fa-microphone"></i>
               スピーカー申込み</a>
           </div>
@@ -35,7 +35,7 @@
               さまざまなスポンサー特典を用意していますので、ご支援よろしくお願いします。
             </div>
             <div class="deadline">応募締切：2018年9月30日</div>
-            <a class="btn" href="#" target="_blank">
+            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdEdPzvXlaB7RfeaqmIy4hPpGlhz-I8ciNw-QNws7S150gHgg/viewform?usp=sf_link" target="_blank">
               <i class="fas fa-star"></i>
               スポンサー申込み</a>
           </div>
