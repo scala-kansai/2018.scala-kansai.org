@@ -1,14 +1,36 @@
 sponsers:
   plutinum:
     - name: ほげ株式会社
-      description: ほげ株式会社
-      image: ""
+      url: ""
+      image: 
+      introduction: 
+      job:
+        title:
+        image:
+        message: 
+        buttonTitle: 
+        url: 
   gold:
     - name: ほげ株式会社
-      description: ほげ株式会社
+      url: ""
+      image: 
+      introduction: 
+      job:
+        title:
+        image:
+        message: 
+        buttonTitle: 
+        url:
   silver:
     - name: ほげ株式会社
-      description: ほげ株式会社
+      url: ""
+      image: 
+      job:
+        image:
+        message: 
+        buttonTitle: 
+        url:
   bronze:
     - name: ほげ株式会社
-      description: ほげ株式会社
+      url: ""
+      image: 
