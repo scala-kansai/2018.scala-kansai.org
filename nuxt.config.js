@@ -13,14 +13,14 @@ module.exports = {
       { property: 'og:title', content: 'Scala関西Summit 2018' },
       { property: 'og:type', content: 'website' },
       { property: 'og:description', content: 'Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は2日間開催です！！日程: 2018年11月10日, 11日。初日はセッション形式。2日目はアンカンファレンスになります。' },
-      { property: 'og:url', content: 'http://summit.scala-kansai.org/' },
-      { property: 'og:image', content: 'http://summit.scala-kansai.org/ogp.jpg' },
+      { property: 'og:url', content: 'https://2018.scala-kansai.org/' },
+      { property: 'og:image', content: 'https://2018.scala-kansai.org/ogp.jpg' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:url', content: 'http://summit.scala-kansai.org/' },
+      { name: 'twitter:url', content: 'https://2018.scala-kansai.org/' },
       { name: 'twitter:title', content: 'Scala関西Summit 2018' },
       { name: 'twitter:description', content: 'Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は11月10日、11日の2日間開催！！' },
-      { name: 'twitter:image', content: 'http://summit.scala-kansai.org/ogp.jpg' }
+      { name: 'twitter:image', content: 'https://2018.scala-kansai.org/ogp.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

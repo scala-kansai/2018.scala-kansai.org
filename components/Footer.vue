@@ -11,10 +11,10 @@
           より多くの人にイベントを知ってもらいたいので、どうぞSNSでのシェアにご協力ください！
         </div>
         <div class="p-share_action">
-          <a class="p-share_tiwtter" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西最大級Scalaカンファレンス 11/10(土),11/11(日)開催  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
+          <a class="p-share_tiwtter" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - 関西最大級Scalaカンファレンス 11/10(土),11/11(日)開催  https://2018.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
             <i class="fab fa-twitter" aria-hidden="true"></i>
             twitterでつぶやく</a>
-          <a class="p-share_facebook" href="https://www.facebook.com/sharer.php?u=http://summit.scala-kansai.org/&amp;amp;t=Scala関西Summit 2018 - 関西最大級Scalaカンファレンス 11/10(土),11/11(日)開催&amp;hashtags=scala_ks" target="_blank">
+          <a class="p-share_facebook" href="https://www.facebook.com/sharer.php?u=https://2018.scala-kansai.org/&amp;amp;t=Scala関西Summit 2018 - 関西最大級Scalaカンファレンス 11/10(土),11/11(日)開催&amp;hashtags=scala_ks" target="_blank">
             <i class="fab fa-facebook-f" aria-hidden="true"></i>
             Facebookでシェア</a>
         </div>

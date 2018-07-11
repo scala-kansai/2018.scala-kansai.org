@@ -29,10 +29,10 @@
         スピーカー &amp; スポンサー募集中！
       </a>
       <div class="p-hero_share">
-        <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は11月10日、11日の2日間開催！  http://summit.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
+        <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は11月10日、11日の2日間開催！  https://2018.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
-        <a class="btn" href="https://www.facebook.com/sharer.php?u=http://summit.scala-kansai.org/" target="_blank">
+        <a class="btn" href="https://www.facebook.com/sharer.php?u=https://2018.scala-kansai.org/" target="_blank">
           <i class="fab fa-facebook-f" aria-hidden="true"></i>
         </a>
         <p class="title">SNSでシェア</p>
