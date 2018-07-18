@@ -5,6 +5,7 @@
     <sec-wanted></sec-wanted>
     <sec-time-table></sec-time-table>
     <sec-access></sec-access>
+    <sec-sponsor></sec-sponsor>
     <sec-thanks :thanks="thanks"></sec-thanks>
   </section>
 </template>
