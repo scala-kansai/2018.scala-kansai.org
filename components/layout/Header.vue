@@ -25,8 +25,8 @@
       </div>
     </header>
     <div :class="activeMenuClass">
-      <a href="#top-access">ACCESS</a>
-      <a href="#top-sponsor">SPONSOR</a>
+      <a href="#top-access" v-on:click="closeNav">ACCESS</a>
+      <a href="#top-sponsor" v-on:click="closeNav">SPONSOR</a>
     </div>
   </div>
 </template>
@@ -54,12 +54,10 @@
     },
     methods: {
       activeNav() {
-        // if(this.nav == true){
-        //   this.nav = false
-        // }else{
-        //   this.nav = true
-        // }
         this.nav = !this.nav
+      },
+      closeNav() {
+        this.nav = false
       }
     }
   }
