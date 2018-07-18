@@ -1,20 +1,30 @@
 <template>
   <div>
-    <nuxt/>
+    <l-header/>
+    <div class="content">
+      <nuxt/>
+    </div>
     <l-footer/>
   </div>
 </template>
 
 <script>
-  import lFooter from '~/components/Footer.vue'
+  import lHeader from '~/components/layout/Header.vue'
+  import lFooter from '~/components/layout/Footer.vue'
 
   export default {
     components: {
-      lFooter,
+      lHeader,
+      lFooter
     }
   }
 </script>
 
 
 <style lang="scss" scoped>
+  @import "~/assets/scss/library/_variable.scss";
+  @import "~/assets/scss/library/_mixin.scss";
+  .content {
+    padding-top: $header-size;
+  }
 </style>
