@@ -25,7 +25,7 @@
         <br>
         Scalaをテーマとした、関西で最大級の技術カンファレンスです。今年は2日間に渡っての開催となります！
       </div>
-      <a href="#p-wanted" class="p-hero_now">
+      <a href="#p-wanted" class="p-hero_now" v-smooth-scroll="{offset: -50 }">
         スピーカー &amp; スポンサー募集中！
       </a>
       <div class="p-hero_share">

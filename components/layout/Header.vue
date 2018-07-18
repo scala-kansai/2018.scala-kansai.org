@@ -25,8 +25,8 @@
       </div>
     </header>
     <div :class="activeMenuClass">
-      <a href="#top-access" v-on:click="closeNav">ACCESS</a>
-      <a href="#top-sponsor" v-on:click="closeNav">SPONSOR</a>
+      <a href="#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</a>
+      <a href="#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</a>
     </div>
   </div>
 </template>
