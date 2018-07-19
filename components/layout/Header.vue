@@ -9,8 +9,8 @@
         </div>
         <div class="col l-header_nav">
           <nav class="l-header_links">
-            <a href="#top-access">ACCESS</a>
-            <a href="#top-sponsor">SPONSOR</a>
+            <a href="#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</a>
+            <a href="#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</a>
           </nav>
           <router-link
               to="/jobs/"
