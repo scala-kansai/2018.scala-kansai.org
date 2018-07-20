@@ -10,7 +10,7 @@
           <div class="list col-md-10" v-for="sponsor in sponsors.plutinum" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url"><div class="logo" :style="logoStyle(sponsor)" /></a>
                 <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
@@ -30,7 +30,7 @@
           <div class="list col-sm-6" v-for="sponsor in sponsors.gold" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url"><div class="logo" :style="logoStyle(sponsor)" /></a>
                 <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
@@ -50,7 +50,7 @@
           <div class="list col-sm-4" v-for="sponsor in sponsors.silver" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" ><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
               <router-link
                       to="/jobs"
@@ -68,7 +68,7 @@
           <div class="list col-sm-3" v-for="sponsor in sponsors.bronze" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" ><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default  {
         .inner {
           max-width: 660px;
         }
-        .thumb {
+        .logo {
           display: inline-block;
           margin-bottom: 15px;
           width: 100%;
@@ -256,7 +256,7 @@ export default  {
             max-width: 360px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           margin-bottom: 15px;
@@ -309,7 +309,7 @@ export default  {
             max-width: 260px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           width: 100%;
@@ -367,7 +367,7 @@ export default  {
             padding: 0 20px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           max-width: 160px;
