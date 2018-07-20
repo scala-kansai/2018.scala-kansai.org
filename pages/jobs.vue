@@ -97,7 +97,7 @@
           <div class="p-job_wanted">
             <p>スポンサー随時受付中です！</p>
             <dev>
-              <a href="" target="_blank" class="p-job_btn-wanted">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEdPzvXlaB7RfeaqmIy4hPpGlhz-I8ciNw-QNws7S150gHgg/viewform?usp=sf_link" target="_blank" class="p-job_btn-wanted">
                 <i class="fas fa-star"></i>
                 スポンサー申込み
               </a>
