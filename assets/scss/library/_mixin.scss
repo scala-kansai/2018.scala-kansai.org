@@ -33,7 +33,7 @@
 
 //Title
 @mixin title-border {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-bottom: 1px solid rgba(127,91,90,.5);
   padding: 1rem 0;
   font-size: 1.6rem;
@@ -41,6 +41,10 @@
   letter-spacing: 1px;
   text-align: left;
   color: $clr_brown;
+  @include desktop {
+    margin-bottom: 30px;
+  }
+
 }
 
 //Button

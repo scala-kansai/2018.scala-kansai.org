@@ -2,16 +2,16 @@
   <section class="p-sponsor" v-if="visible">
     <div class="c-container">
       <h3 class="p-sponsor_heading">スポンサー</h3>
-      <div class="p-sponsor_platinum" v-if="sponsors.plutinum && sponsors.plutinum.length">
+      <div class="p-sponsor_platinum" v-if="sponsors.platinum && sponsors.platinum.length">
         <div class="title">
           Platinum
         </div>
         <div class="row">
-          <div class="list col-md-10" v-for="sponsor in sponsors.plutinum" :key="sponsor.name">
+          <div class="list col-md-10" v-for="sponsor in sponsors.platinum" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="thumb" :style="logoStyle(sponsor)" /></a>
-                <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
@@ -30,8 +30,8 @@
           <div class="list col-sm-6" v-for="sponsor in sponsors.gold" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="thumb" :style="logoStyle(sponsor)" /></a>
-                <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
@@ -50,7 +50,7 @@
           <div class="list col-sm-4" v-for="sponsor in sponsors.silver" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
               <router-link
                       to="/jobs"
@@ -68,7 +68,7 @@
           <div class="list col-sm-3" v-for="sponsor in sponsors.bronze" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="thumb" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default  {
   computed: {
     visible () {
       // スポンサー情報が、どれか1つ以上のプラン入っていたら表示する
-      return this.sponsors.plutinum && this.sponsors.plutinum.length ||
+      return this.sponsors.platinum && this.sponsors.platinum.length ||
         this.sponsors.gold && this.sponsors.gold.length ||
         this.sponsors.silver && this.sponsors.silver.length ||
         this.sponsors.bronze && this.sponsors.bronze.length;
@@ -211,7 +211,7 @@ export default  {
         .inner {
           max-width: 660px;
         }
-        .thumb {
+        .logo {
           display: inline-block;
           margin-bottom: 15px;
           width: 100%;
@@ -256,7 +256,7 @@ export default  {
             max-width: 360px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           margin-bottom: 15px;
@@ -309,7 +309,7 @@ export default  {
             max-width: 260px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           width: 100%;
@@ -367,7 +367,7 @@ export default  {
             padding: 0 20px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           max-width: 160px;
