@@ -1,36 +1,36 @@
 sponsors:
   plutinum:
-    - name: ほげ株式会社
-      url: ""
-      image:
-      introduction:
-      job:
-        title:
-        image:
-        message:
-        buttonTitle:
-        url:
+    # - name: Plutium株式会社
+    #   url: "http://example.com"
+    #   image:
+    #   introduction: 俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。
+    #   job:
+    #     title:
+    #     image:
+    #     message:
+    #     buttonTitle:
+    #     url:
   gold:
-    - name: ほげ株式会社
-      url: ""
-      image:
-      introduction:
-      job:
-        title:
-        image:
-        message:
-        buttonTitle:
-        url:
+    # - name: gold株式会社
+    #   url: "http://example.com"
+    #   image:
+    #   introduction:
+    #   job:
+    #     title:
+    #     image:
+    #     message:
+    #     buttonTitle:
+    #     url:
   silver:
-    - name: ほげ株式会社
-      url: ""
-      image:
-      job:
-        image:
-        message:
-        buttonTitle:
-        url:
+    # - name: silver株式会社
+    #   url: "http://example.com"
+    #   image:
+    #   job:
+    #     image:
+    #     message:
+    #     buttonTitle:
+    #     url:
   bronze:
-    - name: ほげ株式会社
-      url: ""
-      image:
+    # - name: bronze株式会社
+    #   url: "http://example.com"
+    #   image:
