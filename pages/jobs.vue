@@ -30,7 +30,7 @@
                   </div>
                   <div class="inner">
                     <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
-                    <span class="subtitle">{{sponsor.introduction}}</span>
+                    <span class="subtitle">{{sponsor.job.title}}</span>
                     <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                     <p class="description" v-html="md(sponsor.job.message)" />
                     <div class="linkArea">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="inner">
                   <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
-                  <span class="subtitle">会社のキャッチコピーなど</span>
+                  <span class="subtitle">{{sponsor.job.title}}</span>
                   <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                   <p class="description" v-html="md(sponsor.job.message)" />
                   <div class="linkArea">
