@@ -11,16 +11,26 @@ sponsors:
     #     buttonTitle:
     #     url:
   gold:
-    # - name: gold株式会社
-    #   url: "http://example.com"
-    #   image:
-    #   introduction:
-    #   job:
-    #     title:
-    #     image:
-    #     message:
-    #     buttonTitle:
-    #     url:
+    - name:  ChatWork株式会社
+      url: "https://go.chatwork.com/ja/"
+      image: chatwork.png
+      introduction: ChatWork株式会社はビジネスチャット「チャットワーク」を展開しています。178,000社以上に導入され（2018年5月末時点）、企業の生産性向上やコミュニケーション活性化に貢献しています。
+      job:
+        title: Scalaプロダクトを一緒に育ててくれるエンジニア募集中！
+        image: chatwork.png
+        message: |
+          当社の提供しているクラウド型ビジネスチャットツール「チャットワーク」の開発を担当していただきます。
+
+          - 高可用・高スループット・低レイテンシが求められるメッセージングサービス
+          - 効率よく大規模なイベントを処理するWebhookサービス
+          - DDDを用い、不具合が少なく、セキュリティを求められるOAuthサービス
+
+          これらを Scala と Akka を中心としたアプリケーションで実現し、Kubernetes 上で駆動させ、Kafka や HBase、各種AWSのサービスをミドルウェアとして用いて実現しています。
+          これらの運用や新規機能開発をおこなっていただきます。またこのほかにも、次世代のチャットサービスのシステム・アーキテクチャの設計開発もおこなっていただきます。
+
+          エンジニアとして開発だけを担当するのではなく、チャットワークの機能企画や仕様設計なども含め、プロダクト全体を通しての視点で、いかにサービス価値を高めていけるかを追求していける方もお待ちしています。
+        buttonTitle:
+        url: https://corp.chatwork.com/ja/recruit/engineer/
   silver:
     # - name: silver株式会社
     #   url: "http://example.com"
