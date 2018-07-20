@@ -10,8 +10,8 @@
           <div class="list col-md-10" v-for="sponsor in sponsors.platinum" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
@@ -30,8 +30,8 @@
           <div class="list col-sm-6" v-for="sponsor in sponsors.gold" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                <a :href="sponsor.url" class="company">{{ sponsor.name }}</a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
@@ -50,7 +50,7 @@
           <div class="list col-sm-4" v-for="sponsor in sponsors.silver" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
               <router-link
                       to="/jobs"
@@ -68,7 +68,7 @@
           <div class="list col-sm-3" v-for="sponsor in sponsors.bronze" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a :href="sponsor.url" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
             </div>
           </div>

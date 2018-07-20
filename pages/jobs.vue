@@ -29,9 +29,9 @@
                     <i class="fa fa-star"></i>
                   </div>
                   <div class="inner">
-                    <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
+                    <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                     <span class="subtitle">{{sponsor.introduction}}</span>
-                    <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                    <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                     <p class="description">{{sponsor.job.message}}</p>
                     <div class="linkArea">
                       <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
@@ -54,9 +54,9 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="inner">
-                  <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
+                  <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                   <span class="subtitle">会社のキャッチコピーなど</span>
-                  <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                  <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                   <p class="description">{{sponsor.job.message}}</p>
                   <div class="linkArea">
                     <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
@@ -78,10 +78,10 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="inner">
-                  <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
+                  <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                   <div class="row">
                     <div class="col-sm-4">
-                      <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                      <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                     </div>
                     <div class="col-sm">
                       <p class="description">{{sponsor.job.message}}</p>
