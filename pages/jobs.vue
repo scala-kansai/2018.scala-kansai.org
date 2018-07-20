@@ -32,7 +32,7 @@
                     <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                     <span class="subtitle">{{sponsor.introduction}}</span>
                     <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                    <p class="description">{{sponsor.job.message}}</p>
+                    <p class="description" v-html="md(sponsor.job.message)" />
                     <div class="linkArea">
                       <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                     </div>
@@ -57,7 +57,7 @@
                   <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                   <span class="subtitle">会社のキャッチコピーなど</span>
                   <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                  <p class="description">{{sponsor.job.message}}</p>
+                  <p class="description" v-html="md(sponsor.job.message)" />
                   <div class="linkArea">
                     <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                   </div>
@@ -84,7 +84,7 @@
                       <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                     </div>
                     <div class="col-sm">
-                      <p class="description">{{sponsor.job.message}}</p>
+                      <p class="description" v-html="md(sponsor.job.message)" />
                     </div>
                   </div>
                   <div class="linkArea">
@@ -118,6 +118,8 @@
 </template>
 
 <script>
+import marked from "marked"
+
 export default {
   computed:{
     sponsors(){
@@ -129,6 +131,9 @@ export default {
       return {
         backgroundImage: `url('/sponsors/${sponsor.image}')`
       }
+    },
+    md (string) {
+      return marked(string);
     }
   },
 }
