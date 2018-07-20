@@ -2,12 +2,12 @@
   <section class="p-sponsor" v-if="visible">
     <div class="c-container">
       <h3 class="p-sponsor_heading">スポンサー</h3>
-      <div class="p-sponsor_platinum" v-if="sponsors.plutinum && sponsors.plutinum.length">
+      <div class="p-sponsor_platinum" v-if="sponsors.platinum && sponsors.platinum.length">
         <div class="title">
           Platinum
         </div>
         <div class="row">
-          <div class="list col-md-10" v-for="sponsor in sponsors.plutinum" :key="sponsor.name">
+          <div class="list col-md-10" v-for="sponsor in sponsors.platinum" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
                 <a :href="sponsor.url"><div class="logo" :style="logoStyle(sponsor)" /></a>
@@ -90,7 +90,7 @@ export default  {
   computed: {
     visible () {
       // スポンサー情報が、どれか1つ以上のプラン入っていたら表示する
-      return this.sponsors.plutinum && this.sponsors.plutinum.length ||
+      return this.sponsors.platinum && this.sponsors.platinum.length ||
         this.sponsors.gold && this.sponsors.gold.length ||
         this.sponsors.silver && this.sponsors.silver.length ||
         this.sponsors.bronze && this.sponsors.bronze.length;

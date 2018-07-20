@@ -15,12 +15,12 @@
           <div class="p-job_read">
             Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
           </div>
-          <div class="p-job_platinum">
+          <div class="p-job_platinum" v-if="sponsors.platinum">
             <div class="title">
               Platinum
             </div>
             <div>
-              <div class="list">
+              <div class="list" v-for="sponsor in sponsors.platinum" :key="sponsor.name" v-if="sponsor.job">
                 <div class="listItem">
                   <div class="rank">
                   </div>
@@ -29,23 +29,23 @@
                     <i class="fa fa-star"></i>
                   </div>
                   <div class="inner">
-                    <a href="#" class="company">会社名</a>
-                    <span class="subtitle">会社のキャッチコピーなど</span>
-                    <a href="#" class="logoLink" ><div class="logo"/></a>
-                    <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
+                    <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
+                    <span class="subtitle">{{sponsor.introduction}}</span>
+                    <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                    <p class="description">{{sponsor.job.message}}</p>
                     <div class="linkArea">
-                      <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
+                      <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-job_gold">
+          <div class="p-job_gold" v-if="sponsors.gold">
             <div class="title">
               Gold
             </div>
-            <div class="list">
+            <div class="list" v-for="sponsor in sponsors.gold" :key="sponsor.name" v-if="sponsor.job">
               <div class="listItem">
                 <div class="rank">
                 </div>
@@ -54,60 +54,22 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="inner">
-                  <a href="#" class="company">会社名</a>
+                  <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
                   <span class="subtitle">会社のキャッチコピーなど</span>
-                  <a href="#" class="logoLink" ><div class="logo"/></a>
-                  <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
+                  <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
+                  <p class="description">{{sponsor.job.message}}</p>
                   <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="list">
-              <div class="listItem">
-                <div class="rank">
-                </div>
-                <div class="rankText">
-                  <p>Gold</p>
-                  <i class="fa fa-star"></i>
-                </div>
-                <div class="inner">
-                  <a href="#" class="company">会社名</a>
-                  <span class="subtitle">会社のキャッチコピーなど</span>
-                  <a href="#" class="logoLink"><div class="logo"/></a>
-                  <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-                  <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="list">
-              <div class="listItem">
-                <div class="rank">
-                </div>
-                <div class="rankText">
-                  <p>Gold</p>
-                  <i class="fa fa-star"></i>
-                </div>
-                <div class="inner">
-                  <a href="#" class="company">会社名</a>
-                  <span class="subtitle">会社のキャッチコピーなど</span>
-                  <a href="#" class="logoLink"><div class="logo"/></a>
-                  <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-                  <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
+                    <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-job_silver">
+          <div class="p-job_silver" v-if="sponsors.silver">
             <div class="title">
               Silver
             </div>
-            <div class="list">
+            <div class="list" v-for="sponsor in sponsors.silver" :key="sponsor.name" v-if="sponsor.job">
               <div class="listItem">
                 <div class="rank">
                 </div>
@@ -116,65 +78,17 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="inner">
-                  <a href="#" class="company">会社名</a>
+                  <a :href="sponsor.url" class="company">{{sponsor.name}}</a>
                   <div class="row">
                     <div class="col-sm-4">
-                      <a href="#" class="logoLink" ><div class="logo"/></a>
+                      <a :href="sponsor.url" class="logoLink" ><div class="logo" :style="logoStyle(sponsor)" /></a>
                     </div>
                     <div class="col-sm">
-                      <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
+                      <p class="description">{{sponsor.job.message}}</p>
                     </div>
                   </div>
                   <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="list">
-              <div class="listItem">
-                <div class="rank">
-                </div>
-                <div class="rankText">
-                  <p>Silver</p>
-                  <i class="fa fa-star"></i>
-                </div>
-                <div class="inner">
-                  <a href="#" class="company">会社名</a>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <a href="#" class="logoLink" ><div class="logo"/></a>
-                    </div>
-                    <div class="col-sm">
-                      <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-                    </div>
-                  </div>
-                  <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="list">
-              <div class="listItem">
-                <div class="rank">
-                </div>
-                <div class="rankText">
-                  <p>Silver</p>
-                  <i class="fa fa-star"></i>
-                </div>
-                <div class="inner">
-                  <a href="#" class="company">会社名</a>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <a href="#" class="logoLink" ><div class="logo"/></a>
-                    </div>
-                    <div class="col-sm">
-                      <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-                    </div>
-                  </div>
-                  <div class="linkArea">
-                    <a href="" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>広告・求人ページ</a>
+                    <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                   </div>
                 </div>
               </div>
@@ -204,7 +118,20 @@
 </template>
 
 <script>
-
+export default {
+  computed:{
+    sponsors(){
+      return this.$store.state.sponsors
+    },
+  },
+  methods:{
+    logoStyle (sponsor){
+      return {
+        backgroundImage: `url('/sponsors/${sponsor.image}')`
+      }
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped>
