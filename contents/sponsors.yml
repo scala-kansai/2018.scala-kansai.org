@@ -22,6 +22,21 @@ sponsors:
     #     buttonTitle:
     #     url:
   silver:
+    - name: 株式会社ヌーラボ
+      url: "https://nulab-inc.com/ja/"
+      image: nulab.png
+      job:
+        image: nulab.png
+        message: |
+          株式会社ヌーラボは、コラボレーションを促進するツールを開発している会社です。
+          [Backlog](https://backlog.com/ja/) / [Cacoo](https://cacoo.com/lang/ja/home) /
+          [Typetalk](https://www.typetalk.com/ja/)
+
+          プロダクト開発には、Scalaを採用しています。会社として[Scala福岡](https://scala.connpass.com/)という勉強会の支援や、既に開催50回目を超えるScalaや関数型プログラミングに関する勉強会の実施をしています。また、実際にサービスで利用するために開発したScalaのライブラリを[GitHubで OSS として公開](https://github.com/nulab/scala-oauth2-provider)も行っています。
+
+          本社は福岡ですが、関西では京都にも開発拠点があります。Scalaを使った開発に興味がある方やドッグフーディングできるサービスに興味がある方、詳しくは[採用情報](https://nulab-inc.com/ja/about/careers/)やヌーラボブログの[技術カテゴリー](https://nulab-inc.com/ja/blog/categories/techblog/)を参照してください。
+        buttonTitle:
+        url: "https://nulab-inc.com/ja/about/careers/"
     - name: 株式会社サムライズム
       url: "https://samuraism.com/"
       image: samuraism.png
