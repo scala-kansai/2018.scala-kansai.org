@@ -22,14 +22,16 @@ sponsors:
     #     buttonTitle:
     #     url:
   silver:
-    # - name: silver株式会社
-    #   url: "http://example.com"
-    #   image:
-    #   job:
-    #     image:
-    #     message:
-    #     buttonTitle:
-    #     url:
+    - name: 株式会社サムライズム
+      url: "https://samuraism.com/"
+      image: samuraism.png
+      job:
+        image: samuraism.png
+        message: |
+          株式会社サムライズムではJetBrains、GitHub、ZeroTurnaround、Atlassianなどデベロッパ向けのツールを販売いたしております。
+          製品の調達だけでなく選定のお手伝いや、トレーニングなども提供しておりますのでお気軽にご相談ください。
+        buttonTitle:
+        url: "https://samuraism.com/"
   bronze:
     # - name: bronze株式会社
     #   url: "http://example.com"
