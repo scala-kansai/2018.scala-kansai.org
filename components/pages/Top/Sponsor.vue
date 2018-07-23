@@ -15,7 +15,7 @@
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
-                to="/jobs"
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
                 class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
@@ -35,7 +35,7 @@
                 <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
-                to="/jobs"
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
                 class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
@@ -53,8 +53,8 @@
                 <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
               <router-link
-                      to="/jobs"
-                      class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
+                class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
           </div>

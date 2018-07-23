@@ -20,7 +20,7 @@
               Platinum
             </div>
             <div>
-              <div class="list" v-for="sponsor in sponsors.platinum" :key="sponsor.name" v-if="sponsor.job">
+              <div class="list" v-for="sponsor in sponsors.platinum" :key="sponsor.name" v-if="sponsor.job" :id="sponsor.name">
                 <div class="listItem">
                   <div class="rank">
                   </div>
@@ -32,7 +32,7 @@
                     <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                     <span class="subtitle">{{sponsor.job.title}}</span>
                     <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                    <p class="description" v-html="md(sponsor.job.message)" />
+                    <div class="description" v-html="md(sponsor.job.message)" />
                     <div class="linkArea">
                       <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                     </div>
@@ -45,7 +45,7 @@
             <div class="title">
               Gold
             </div>
-            <div class="list" v-for="sponsor in sponsors.gold" :key="sponsor.name" v-if="sponsor.job">
+            <div class="list" v-for="sponsor in sponsors.gold" :key="sponsor.name" v-if="sponsor.job" :id="sponsor.name">
               <div class="listItem">
                 <div class="rank">
                 </div>
@@ -57,7 +57,7 @@
                   <a :href="sponsor.url" class="company" target="_blank">{{sponsor.name}}</a>
                   <span class="subtitle">{{sponsor.job.title}}</span>
                   <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
-                  <p class="description" v-html="md(sponsor.job.message)" />
+                  <div class="description" v-html="md(sponsor.job.message)" />
                   <div class="linkArea">
                     <a :href="sponsor.job.url" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>{{ sponsor.job.buttonTitle || "広告・求人ページ" }}</a>
                   </div>
@@ -69,7 +69,7 @@
             <div class="title">
               Silver
             </div>
-            <div class="list" v-for="sponsor in sponsors.silver" :key="sponsor.name" v-if="sponsor.job">
+            <div class="list" v-for="sponsor in sponsors.silver" :key="sponsor.name" v-if="sponsor.job" :id="sponsor.name">
               <div class="listItem">
                 <div class="rank">
                 </div>
@@ -84,7 +84,7 @@
                       <a :href="sponsor.url" class="logoLink" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
                     </div>
                     <div class="col-sm">
-                      <p class="description" v-html="md(sponsor.job.message)" />
+                      <div class="description" v-html="md(sponsor.job.message)" />
                     </div>
                   </div>
                   <div class="linkArea">
@@ -96,12 +96,12 @@
           </div>
           <div class="p-job_wanted">
             <p>スポンサー随時受付中です！</p>
-            <dev>
+            <div>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEdPzvXlaB7RfeaqmIy4hPpGlhz-I8ciNw-QNws7S150gHgg/viewform?usp=sf_link" target="_blank" class="p-job_btn-wanted">
                 <i class="fas fa-star"></i>
                 スポンサー申込み
               </a>
-            </dev>
+            </div>
             <div>
               <router-link
                 to="/"
