@@ -20,6 +20,8 @@
           </router-link>
           <a v-on:click="activeNav" :class="activeNavClass">
             <span></span>
+            <span></span>
+            <span></span>
           </a>
         </div>
       </div>
@@ -164,7 +166,6 @@
       @include desktop{
         display: none;
       }
-
       span {
         display: inline-block;
         width: 30px;
@@ -173,35 +174,17 @@
         border-radius: 9999px;
         position: absolute;
         left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        transition: all .3s;
-        &::before {
-          content: "";
-          display: inline-block;
-          width: 30px;
-          height: 4px;
-          background: white;
-          border-radius: 9999px;
-          position: absolute;
-          left: 50%;
-          top: -10px;
-          transform: translate(-50%);
-          transition: all .3s;
+        transform: translateX(-50%);
+        transition: all .4s;
+      }
+      span:nth-of-type(1) {
+        top: 20px;
+      }
+      span:nth-of-type(2) {
+        top: 30px;
         }
-        &::after {
-          content: "";
-          display: inline-block;
-          width: 30px;
-          height: 4px;
-          background: white;
-          border-radius: 9999px;
-          position: absolute;
-          left: 50%;
-          top: 10px;
-          transform: translate(-50%);
-          transition: all .3s;
-        }
+      span:nth-of-type(3) {
+        top: 40px;
       }
     }
   }
@@ -215,7 +198,7 @@
     position: fixed;
     top: $header-size;
     z-index: 9999;
-    transition: all .3s;
+    transition: all .4s;
 
     a {
       display: block;
@@ -230,7 +213,7 @@
   .l-header_spNavLinks.active {
     visibility: visible;
     opacity: 1;
-    transition: all .3s;
+    transition: all .4s;
   }
   .l-header_spNav.active {
     display: inline-block;
@@ -241,49 +224,20 @@
     text-align: center;
     background: $clr_red;
     position: relative;
-    transition: all .3s;
+    transition: all .4s;
 
     @include desktop{
       display: none;
     }
 
-    span {
-      display: inline-block;
-      width: 30px;
-      height: 4px;
-      background: transparent;
-      border-radius: 9999px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      transition: all .3s;
-      &::before {
-        content: "";
-        display: inline-block;
-        width: 34px;
-        height: 4px;
-        background: white;
-        border-radius: 9999px;
-        position: absolute;
-        left: 0;
-        top: 25%;
-        transform: rotate(45deg);
-        transition: all .3s;
+    span:nth-of-type(1) {
+      transform: translateY(7px) translateX(-50%) rotate(-45deg);
+    }
+    span:nth-of-type(2) {
+      opacity: 0;
       }
-      &::after {
-        content: "";
-        display: inline-block;
-        width: 34px;
-        height: 4px;
-        background: white;
-        border-radius: 9999px;
-        position: absolute;
-        left: 0;
-        top: 25%;
-        transform: rotate(-45deg);
-        transition: all .3s;
-      }
+    span:nth-of-type(3) {
+      transform: translateY(-13px) translateX(-50%) rotate(45deg);
     }
   }
 </style>
