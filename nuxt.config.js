@@ -56,6 +56,7 @@ module.exports = {
     "~/assets/scss/app.scss"
   ],
   plugins:[
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/smooth.js', ssr: false }
   ]
 }

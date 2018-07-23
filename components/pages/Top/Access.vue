@@ -1,5 +1,5 @@
 <template>
-  <section class="p-access">
+  <section class="p-access" id="top-access">
     <img src="~assets/images/leaf4.svg" class="leaf4">
     <img src="~assets/images/leaf6.svg" class="leaf6">
     <img src="~assets/images/leaf3.svg" class="leaf3">
