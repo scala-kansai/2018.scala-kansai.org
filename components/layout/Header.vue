@@ -214,6 +214,10 @@
     visibility: visible;
     opacity: 1;
     transition: all .4s;
+
+      @include desktop {
+          display: none;
+      }
   }
   .l-header_spNav.active {
     display: inline-block;
