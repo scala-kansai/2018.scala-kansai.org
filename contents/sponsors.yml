@@ -58,6 +58,7 @@ sponsors:
         buttonTitle:
         url: "https://samuraism.com/"
   bronze:
-    # - name: bronze株式会社
-    #   url: "http://example.com"
-    #   image:
+    - name: Kuchitama
+      url: "https://twitter.com/kuchitama"
+      image: kuchitama.png
+
