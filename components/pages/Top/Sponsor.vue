@@ -1,175 +1,74 @@
 <template>
-  <section class="p-sponsor" id="top-sponsor">
+  <section class="p-sponsor" v-if="visible">
     <div class="c-container">
       <h3 class="p-sponsor_heading">スポンサー</h3>
-      <div class="p-sponsor_platinum">
+      <div class="p-sponsor_platinum" v-if="sponsors.platinum && sponsors.platinum.length">
         <div class="title">
           Platinum
         </div>
         <div class="row">
-          <div class="list col-md-10">
+          <div class="list col-md-10" v-for="sponsor in sponsors.platinum" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-                <a href="#" class="company">会社名</a>
-                <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
+                <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
-                to="/jobs"
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
                 class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
           </div>
         </div>
       </div>
-      <div class="p-sponsor_gold">
+      <div class="p-sponsor_gold" v-if="sponsors.gold && sponsors.gold.length">
         <div class="title">
           Gold
         </div>
         <div class="row">
-          <div class="list col-sm-6">
+          <div class="list col-sm-6" v-for="sponsor in sponsors.gold" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-                <a href="#" class="company">会社名</a>
-                <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
+                <a :href="sponsor.url" class="company" target="_blank">{{ sponsor.name }}</a>
+                <p class="description">{{ sponsor.introduction }}</p>
               </div>
               <router-link
-                to="/jobs"
-                class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
-              </router-link>
-            </div>
-          </div>
-          <div class="list col-sm-6">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-                <a href="#" class="company">会社名</a>
-                <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-              </div>
-              <router-link
-                to="/jobs"
-                class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
-              </router-link>
-            </div>
-          </div>
-          <div class="list col-sm-6">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-                <a href="#" class="company">会社名</a>
-                <p class="description">俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。</p>
-              </div>
-              <router-link
-                to="/jobs"
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
                 class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
           </div>
         </div>
       </div>
-      <div class="p-sponsor_silver">
+      <div class="p-sponsor_silver" v-if="sponsors.silver && sponsors.silver.length">
         <div class="title">
           Silver
         </div>
         <div class="row">
-          <div class="list col-sm-4">
+          <div class="list col-sm-4" v-for="sponsor in sponsors.silver" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
               <router-link
-                      to="/jobs"
-                      class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
-              </router-link>
-            </div>
-          </div>
-          <div class="list col-sm-4">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-              <router-link
-                      to="/jobs"
-                      class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
-              </router-link>
-            </div>
-          </div>
-          <div class="list col-sm-4">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-              <router-link
-                      to="/jobs"
-                      class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
-              </router-link>
-            </div>
-          </div>
-          <div class="list col-sm-4">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-              <router-link
-                      to="/jobs"
-                      class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
+                :to="{ name: 'jobs', hash: '#' + sponsor.name }"
+                class="btn">広告・求人ページ<i class="fas fa-chevron-right"></i>
               </router-link>
             </div>
           </div>
         </div>
       </div>
-      <div class="p-sponsor_bronze">
+      <div class="p-sponsor_bronze" v-if="sponsors.bronze && sponsors.bronze.length">
         <div class="title">
           Bronze
         </div>
         <div class="row">
-          <div class="list col-sm-3">
+          <div class="list col-sm-3" v-for="sponsor in sponsors.bronze" :key="sponsor.name">
             <div class="listItem">
               <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="list col-sm-3">
-            <div class="listItem">
-              <div class="inner">
-                <a href="#" ><div class="thumb"/></a>
+                <a :href="sponsor.url" target="_blank"><div class="logo" :style="logoStyle(sponsor)" /></a>
               </div>
             </div>
           </div>
@@ -182,9 +81,28 @@
 <script>
 
 export default  {
-  components: {
-
-  }
+  props: {
+    sponsors: {
+      type: Object,
+      default: ()=>({}),
+    },
+  },
+  computed: {
+    visible () {
+      // スポンサー情報が、どれか1つ以上のプラン入っていたら表示する
+      return this.sponsors.platinum && this.sponsors.platinum.length ||
+        this.sponsors.gold && this.sponsors.gold.length ||
+        this.sponsors.silver && this.sponsors.silver.length ||
+        this.sponsors.bronze && this.sponsors.bronze.length;
+    }
+  },
+  methods:{
+    logoStyle (sponsor){
+      return {
+        backgroundImage: `url('/sponsors/${sponsor.image}')`
+      }
+    }
+  },
 }
 </script>
 
@@ -293,7 +211,7 @@ export default  {
         .inner {
           max-width: 660px;
         }
-        .thumb {
+        .logo {
           display: inline-block;
           margin-bottom: 15px;
           width: 100%;
@@ -338,7 +256,7 @@ export default  {
             max-width: 360px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           margin-bottom: 15px;
@@ -391,7 +309,7 @@ export default  {
             max-width: 260px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           width: 100%;
@@ -449,7 +367,7 @@ export default  {
             padding: 0 20px;
           }
         }
-        .thumb {
+        .logo {
           display: block;
           margin: 0 auto;
           max-width: 160px;
