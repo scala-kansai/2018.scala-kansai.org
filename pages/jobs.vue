@@ -274,12 +274,18 @@ export default {
       }
       .description {
         margin-bottom: 40px;
+        /deep/ a {
+          color: #C95F1C;
+          text-decoration: underline;
+        }
       }
 
       .btn {
         @include btnIcon;
       }
     }
+
+    /* プラチナ */
 
     &_platinum {
       margin-bottom: 30px;
@@ -329,6 +335,8 @@ export default {
 
       }
     }
+
+    /* ゴールド */
 
     &_gold {
       margin-bottom: 30px;
@@ -381,6 +389,8 @@ export default {
         }
       }
     }
+
+    /* シルバー */
 
     &_silver {
       .listItem {
