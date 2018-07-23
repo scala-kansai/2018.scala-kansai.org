@@ -1,5 +1,5 @@
 <template>
-  <section class="p-sponsor" v-if="visible">
+  <section class="p-sponsor" id="top-sponsor" v-if="visible">
     <div class="c-container">
       <h3 class="p-sponsor_heading">スポンサー</h3>
       <div class="p-sponsor_platinum" v-if="sponsors.platinum && sponsors.platinum.length">
