@@ -31,6 +31,24 @@ sponsors:
           エンジニアとして開発だけを担当するのではなく、チャットワークの機能企画や仕様設計なども含め、プロダクト全体を通しての視点で、いかにサービス価値を高めていけるかを追求していける方もお待ちしています。
         buttonTitle:
         url: https://corp.chatwork.com/ja/recruit/engineer/
+    - name:  LINE株式会社
+      url: "https://engineering.linecorp.com/ja/"
+      image: line.png
+      introduction: LINEは「CLOSING THE DISTANCE」をミッションとして、コミュニケーションアプリ「LINE」を基軸として各種サービス、Fintech事業、AI事業などを展開しています。
+      job:
+        title: ScalaとLINEエンジニアの距離を縮めたいエンジニア募集しています！
+        image: line.png
+        message: |
+          LINE株式会社は、「CLOSING THE DISTANCE」の実現に向けて、コミュニケーションアプリ「LINE」を中心に、「LINEマンガ」などエンタテイメントや「LINE Ads Platform」のような広告、「LINE Pay」などの決済系といった、幅広い分野でサービスを行なっています。また、LINE ClovaのようなAIアシスタントの提供も始めています。
+
+          これらのサービスやデバイスの裏側では非常に多くのサーバーが動いており、大量のリクエストを捌いています。
+          そのコードの多くはJavaで書かれていますが、中にはScalaで書かれているものもあります。
+          これらのコードは、エンジニア自身の個人的な技術バックグラウンドやこれまでの経験、担当プロジェクトにとってどういった選択が適切であるかという判断に基づき、Scalaが採用されています。つまりLINEでは、エンジニア自身の判断で、好きな技術を採用できるということです。
+
+          LINEでは、技術に情熱のあるエンジニアを求めています。
+          人と人、モノ、情報の距離を縮め、ScalaとLINEエンジニアの距離を縮めたい方、ご応募お待ちしています！
+        buttonTitle:
+        url: https://linecorp.com/ja/career/ja/all
   silver:
     - name: 株式会社ヌーラボ
       url: "https://nulab-inc.com/ja/"
