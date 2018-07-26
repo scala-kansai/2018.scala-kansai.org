@@ -35,3 +35,10 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 1. netlifyでの確認を行う
   - PR作成後、しばらくすると `All checks have passed` と表示される
   - Show all checksをクリック→Detailsをクリック
+
+### 注意点
+
+- スプレッドシートのスポンサー情報を確認する
+  - ロゴ使用のガイドラインを守る
+  - 掲載順序を確認する
+  - https://docs.google.com/spreadsheets/d/1DsKnQ-Xm6ejY8qIbgdU3Ahj0ZIutC-5dWBndw-eJA_k
