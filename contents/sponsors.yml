@@ -79,4 +79,6 @@ sponsors:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
       image: kuchitama.png
-
+    - name: GitBucket
+      url: "https://gitbucket.github.io/"
+      image: gitbucket.png
