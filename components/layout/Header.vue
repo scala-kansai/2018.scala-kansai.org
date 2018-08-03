@@ -3,14 +3,14 @@
     <header class="l-header">
       <div class="row">
         <div class="col-auto">
-          <a href="/">
+          <router-link to="/">
             <img class="l-header_logo" src="~/assets/images/header_logo.svg" alt="Scala Kansai summit2018">
-          </a>
+          </router-link>
         </div>
         <div class="col l-header_nav">
           <nav class="l-header_links">
-            <a href="#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</a>
-            <a href="#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</a>
+            <router-link to="/#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
+            <router-link to="/#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
           </nav>
           <router-link
               to="/jobs/"
@@ -27,8 +27,8 @@
       </div>
     </header>
     <div :class="activeMenuClass">
-      <a href="#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</a>
-      <a href="#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</a>
+      <router-link to="/#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
+      <router-link to="/#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
     </div>
   </div>
 </template>
