@@ -7,7 +7,7 @@
       <img src="~assets/images/logo.svg" class="p-about_logo">
       <h3 class="p-about_heading">Scala関西Summit&nbsp;2018について</h3>
       <div class="p-about_read">
-        Scala関西Summitは、Scalaをテーマとした技術カンファレンスです。地方開催という特色を活かし、地元企業の導入事例や、普段の仕事で気づいたTIPS、新しい技術の導入事例など、幅広いコンテンツを毎年用意しています。Scalaを書いたことがないけれど気になっているという人や、仕事でヘビーに使っている人など、Scalaに関わるあらゆる人々を対象としたイベントです。Scala関西Summitは「参加者全員でつくるイベント」を目指しており、ぜひ明日からのScala仲間を探しに来てください。
+        Scala関西Summitは、Scalaをテーマとした技術カンファレンスです。地方開催という特色を活かし、地元企業の導入事例や、普段の仕事で気づいたTIPS、新しい技術の導入事例など、幅広いコンテンツが一般公募によって持ち寄られます。Scalaを書いたことがないけれど気になっているという人や、仕事でヘビーに使っている人など、Scalaに関わるあらゆる人々を対象としたイベントです。Scala関西Summitは「参加者全員でつくるイベント」を目指しており、ぜひ明日からのScala仲間を探しに来てください。
       </div>
       <div class="p-about_list">
         <div class="p-about_listItem">
