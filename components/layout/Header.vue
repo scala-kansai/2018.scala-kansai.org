@@ -9,8 +9,8 @@
         </div>
         <div class="col l-header_nav">
           <nav class="l-header_links">
-            <router-link to="/#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
-            <router-link to="/#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
+            <router-link to="/#top-access" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
+            <router-link to="/#top-sponsor" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
           </nav>
           <router-link
               to="/jobs/"
@@ -27,8 +27,8 @@
       </div>
     </header>
     <div :class="activeMenuClass">
-      <router-link to="/#top-access" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
-      <router-link to="/#top-sponsor" v-on:click="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
+      <router-link to="/#top-access" v-on:click.native="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
+      <router-link to="/#top-sponsor" v-on:click.native="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
     </div>
   </div>
 </template>
