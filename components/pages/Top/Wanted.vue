@@ -110,12 +110,13 @@
 
     &_listItem {
       margin-bottom: 30px;
-      padding: 40px;
+      padding: 20px;
       border-radius: 10px;
       background: white;
 
       @include desktop {
         margin-bottom: 0;
+        padding: 40px;
       }
 
       .title {
