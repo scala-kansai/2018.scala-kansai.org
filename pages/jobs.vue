@@ -13,7 +13,7 @@
             求人・広告
           </h3>
           <div class="p-job_read">
-            Scala関西Summit はScala初心者から上級者まで楽しめる、Scalaの技術を共有するイベントです（このテキストは仮で入れています。）
+            Scala関西Summitはスポンサーの皆様からの支援を頂いて運営しています。
           </div>
           <div class="p-job_platinum" v-if="sponsors.platinum">
             <div class="title">
