@@ -75,6 +75,19 @@ sponsors:
           製品の調達だけでなく選定のお手伝いや、トレーニングなども提供しておりますのでお気軽にご相談ください。
         buttonTitle:
         url: "https://samuraism.com/"
+    - name: 株式会社Tech to Value
+      url: "http://www.t2v.jp/"
+      image: t2v.png
+      job:
+        image: t2v.png
+        message: |
+          (株)Tech to Value では Scala Onlineコードレビューをサービスとして行っています。
+
+          GitHubやそれに類するサービスにてPull Requestベースによるコードレビュー、ならびにSlackやChatworkといったチャットサービスによるFAQを通じ、チームに実践的なScalaの使い方を広げていきます。
+
+          Scalaの導入を検討しているが、チームに詳しい人間が居ないため二の足を踏んでいる企業がありましたら、ぜひ導入をご検討ください。
+        buttonTitle:
+        url: "http://www.t2v.jp/"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
