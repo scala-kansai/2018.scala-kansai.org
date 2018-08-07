@@ -75,6 +75,21 @@ sponsors:
           製品の調達だけでなく選定のお手伝いや、トレーニングなども提供しておりますのでお気軽にご相談ください。
         buttonTitle:
         url: "https://samuraism.com/"
+    - name: さくらインターネット株式会社
+      url: "https://www.sakura.ad.jp/brand-assets/"
+      image: sakura.png
+      job:
+        image: sakura.png
+        message: |
+          [さくらインターネット株式会社](https://www.sakura.ad.jp/)は、"インターネット" で熱量を持って挑戦するすべての人の 「やりたいこと」を「できる」に変える をモットーに、さまざまなインターネットインフラサービスを提供しています。
+
+          最近はさくらでもScalaを少しずつ使い始めています。例えば、さくらインターネットが提供するIoTプラットフォームサービス「[sakura.io](https://sakura.io/)」では、Golang/Python/Scala/Cの4つの言語を主に使っており、メイン言語のひとつとなっています。
+
+          また、当社では現在「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、働きやすさにこだわった企業づくりを推進しています。
+
+          こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。
+        buttonTitle:
+        url: "https://www.sakura.ad.jp/recruit/"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
