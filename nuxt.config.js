@@ -58,5 +58,24 @@ module.exports = {
   plugins:[
     { src: '~plugins/ga.js', ssr: false },
     { src: '~plugins/smooth.js', ssr: false }
-  ]
+  ],
+  router: {
+    // https://github.com/nuxt/nuxt.js/issues/2738#issuecomment-372007743
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      } else {
+        let position = {}
+        if (to.matched.length < 2) {
+          position = { x: 0, y: 0 }
+        } else if (to.matched.some(r => r.components.default.options.scrollToTop)) {
+          position = { x: 0, y: 0 }
+        }
+        if (to.hash) {
+          position = { selector: to.hash }
+        }
+        return position
+      }
+    }
+  },
 }
