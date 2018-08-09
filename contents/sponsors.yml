@@ -88,6 +88,21 @@ sponsors:
           Scalaの導入を検討しているが、チームに詳しい人間が居ないため二の足を踏んでいる企業がありましたら、ぜひ導入をご検討ください。
         buttonTitle:
         url: "http://www.t2v.jp/"
+    - name: さくらインターネット株式会社
+      url: "https://www.sakura.ad.jp/"
+      image: sakura.png
+      job:
+        image: sakura.png
+        message: |
+          [さくらインターネット株式会社](https://www.sakura.ad.jp/)は、"インターネット" で熱量を持って挑戦するすべての人の 「やりたいこと」を「できる」に変える をモットーに、さまざまなインターネットインフラサービスを提供しています。
+
+          最近はさくらでもScalaを少しずつ使い始めています。例えば、さくらインターネットが提供するIoTプラットフォームサービス「[sakura.io](https://sakura.io/)」では、Golang/Python/Scala/Cの4つの言語を主に使っており、メイン言語のひとつとなっています。
+
+          また、当社では「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、社員が働きがいを見出すための働きやすい環境づくりを推進しています。  
+
+          こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。
+        buttonTitle:
+        url: "https://www.sakura.ad.jp/recruit/"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
