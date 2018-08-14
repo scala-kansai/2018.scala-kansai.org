@@ -1,5 +1,5 @@
 <template>
-  <section class="p-timeTable">
+  <section class="p-timeTable" id="top-timetable">
     <div class="c-container">
       <h3 class="p-timeTable_heading">タイムテーブル</h3>
       <div class="p-timeTable_read">
