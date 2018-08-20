@@ -98,11 +98,32 @@ sponsors:
 
           最近はさくらでもScalaを少しずつ使い始めています。例えば、さくらインターネットが提供するIoTプラットフォームサービス「[sakura.io](https://sakura.io/)」では、Golang/Python/Scala/Cの4つの言語を主に使っており、メイン言語のひとつとなっています。
 
-          また、当社では「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、社員が働きがいを見出すための働きやすい環境づくりを推進しています。  
+          また、当社では「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、社員が働きがいを見出すための働きやすい環境づくりを推進しています。
 
           こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。
         buttonTitle:
         url: "https://www.sakura.ad.jp/recruit/"
+    - name: 株式会社grooves
+      url: "https://forkwell.com/"
+      image: forkwell.png
+      job:
+        image: forkwell.png
+        message: |
+          Forkwellは「成長し続けるエンジニアを支援する」というサービス・ミッションの元に、4つのサービスを展開しています。
+
+          1. [Forkwell Portfolio](https://portfolio.forkwell.com)<br />
+            あなたのスキルや日々のアウトプットを可視化できるエンジニア向けのポートフォリオサービスです。
+            GitHub連携することで、あなたのScalaのスキルを可視化できます。
+          2. [Forkwell Jobs](https://jobs.forkwell.com/t/scala)<br />
+            Web系企業に特化したエンジニア専門の求人サイトです。
+          3. [Forkwell Scout](https://jobs.forkwell.com/about/scout)<br />
+            あなたの経験・スキルに魅力を感じた企業からだけスカウトが届く転職スカウトサービスです。
+          4. [Forkwell Press](https://press.forkwell.com)<br />
+            エンジニアへのインタビュー記事など、働き方・生き様・キャリア観をありのままにウォッチするコンテンツ・メディアです。
+
+          Forkwellはこれからもさまざまなサービスを通じて、エンジニアの皆さまの成長を全力で支援します。
+        buttonTitle:
+        url: "https://forkwell.com"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
