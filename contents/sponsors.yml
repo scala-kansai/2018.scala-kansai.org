@@ -98,7 +98,7 @@ sponsors:
 
           最近はさくらでもScalaを少しずつ使い始めています。例えば、さくらインターネットが提供するIoTプラットフォームサービス「[sakura.io](https://sakura.io/)」では、Golang/Python/Scala/Cの4つの言語を主に使っており、メイン言語のひとつとなっています。
 
-          また、当社では「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、社員が働きがいを見出すための働きやすい環境づくりを推進しています。  
+          また、当社では「[さぶりこ（Sakura Business and Life Co-Creation）](https://www.sakura.ad.jp/corporate/corp/sabulico/)」という取り組みを通じ、社員が働きがいを見出すための働きやすい環境づくりを推進しています。
 
           こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。
         buttonTitle:
@@ -113,3 +113,6 @@ sponsors:
     - name: GitBucket
       url: "https://gitbucket.github.io/"
       image: gitbucket.png
+    - name: 株式会社インパス
+      url: "https://impath.co.jp/"
+      image: impath.png
