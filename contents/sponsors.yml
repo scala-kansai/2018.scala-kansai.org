@@ -109,6 +109,24 @@ sponsors:
           Scalaの導入を検討しているが、チームに詳しい人間が居ないため二の足を踏んでいる企業がありましたら、ぜひ導入をご検討ください。
         buttonTitle:
         url: "http://www.t2v.jp/"
+    - name: 株式会社はてな
+      url: "http://hatenacorp.jp/"
+      image: hatena.png
+      job:
+        image:
+        message: |
+          はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a target='_blank' href='http://b.hatena.ne.jp/'>はてなブックマーク</a>」「<a target='_blank' href='http://hatenablog.com/'>はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a target='_blank' href='https://mackerel.io/ja/'>Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。
+
+          Scala は Mackerel やリニューアル中のはてなブックマークほか、サービスの一部で採用されています（<a target='_blank' href='https://speakerdeck.com/aereal/microservices-and-scala-at-hatena'>はてなにおけるマイクロサービスとScala</a>、<a target='_blank' href='http://www.slideshare.net/oarat/2015-0801-scala'>はてなブックマーク in Scala</a>、<a target='_blank' href='http://2014.scalamatsuri.org/ja/program/index.html#session-b-5'>Mackerel における Scala/Play</a>）。
+
+          技術で人の生活を豊かにすることに情熱を持てる方は、ぜひエンジニア採用にご応募ください。勤務地は京都と東京の両方を選択できます。詳しくは採用ページや開発者ブログをご覧ください。
+
+          <a target='_blank' href='http://hatenacorp.jp/recruit/'>採用情報 - 株式会社はてな</a>
+
+          <a target='_blank' href='http://developer.hatenastaff.com/'>Hatena Developer Blog</a>
+
+        buttonTitle:
+        url: "http://hatenacorp.jp/recruit/"
     - name: さくらインターネット株式会社
       url: "https://www.sakura.ad.jp/"
       image: sakura.png
