@@ -49,6 +49,29 @@ sponsors:
           エンジニアとして開発だけを担当するのではなく、チャットワークの機能企画や仕様設計なども含め、プロダクト全体を通しての視点で、いかにサービス価値を高めていけるかを追求していける方もお待ちしています。
         buttonTitle:
         url: https://corp.chatwork.com/ja/recruit/engineer/
+    - name:  株式会社FOLIO
+      url: "https://corp.folio-sec.com/"
+      image: folio.png
+      introduction: 私たちは、オンライン証券サービス「フォリオ」の開発・運用をしています。金融工学、デザイン、テクノロジーのちからで「ワクワクする投資」を実現するため、挑戦を続けています。
+      job:
+        title:
+        image: folio.png
+        message: |
+          私たちは、オンライン証券サービス「フォリオ」を開発しております。<br/>
+          正真正銘の証券会社ですが、よくある「金融サービス = レガシー」というイメージは、
+          私たちの取り組みを知っていただけたら変わるのではないかと思います。
+          システムを構成する
+          <a href="https://www.wantedly.com/companies/folio/post_articles/75600">マイクロサービスの大部分は Scala および Finagle で実装されており</a>、
+          それらを安定運用するためのメトリクス監視や生産性を高く保つための仕組みづくりも数多く行われています。
+          また、<a href="https://twitter.com/folio_creators/status/1031836427967811584">ドメインモデリング</a>や
+          <a href="https://matsu-chara.hatenablog.com/entry/2018/08/14/130814">プロジェクト/リスクマネジメント</a>
+          に関する議論も活発に行われています。<br/>
+          Scala関西Summitのようなカンファレンスへの登壇やスポンサーをしたり、
+          2017年には<a href="https://qiita.com/advent-calendar/2017/folio-sec">FOLIO Advent Calendar</a>を完走したりと、
+          エンジニアのアウトプットが推奨される文化が醸成されています。<br/>興味をもっていただける方は、
+          <a href="https://www.wantedly.com/projects/208210">求人ページ</a>を覗いてみてください！
+        buttonTitle:
+        url: https://corp.folio-sec.com/product/
   silver:
     - name: 株式会社ヌーラボ
       url: "https://nulab-inc.com/ja/"
