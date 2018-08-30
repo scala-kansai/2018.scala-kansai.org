@@ -1,15 +1,16 @@
 sponsors:
   platinum:
-    # - name: Plutium株式会社
-    #   url: "http://example.com"
-    #   image:
-    #   introduction: 俺は今単にその落第院というのの上をもっななら。何しろ今が関係通りはまあその煩悶うですまでを入れから切らたには記憶なりないですば、いっそにもなっなけれませんた。安危があるたものもとうてい事実をちゃんとでたある。よし嘉納さんでぼんやり詞どう煩悶に応じなら学校その兄弟それかろかをにおいて大記憶たらたたでしょと、この時分はあなたか日数他よりならが、三宅さんのので学校の私にさぞ小評とあるて私教授が小講演に着ようにあたかもご誤解になっないなて、初めてどうしても影響に思いましていなものに当てるなけれた。
-    #   job:
-    #     title:
-    #     image:
-    #     message:
-    #     buttonTitle:
-    #     url:
+    - name:  株式会社スタートトゥデイテクノロジーズ
+      url: "https://www.starttoday-tech.com/"
+      image: starttoday.png
+      introduction: 私たちは、スタートトゥデイグループの技術開発・サービス運用部門となる企業です。“70億人のファッションを技術の力で変えていく”というミッションの元、ビッグデータの活用と技術革新の加速を目指しています。
+      job:
+        title: ７０億人のファッションを技術の力で変えたいエンジニア募集！
+        image: starttoday.png
+        message: |
+          https://www.starttoday-tech.com/recruit/mid-career/detail20/
+        buttonTitle:
+        url: https://www.starttoday-tech.com/recruit/
   gold:
     - name:  LINE株式会社
       url: "https://engineering.linecorp.com/ja/"
