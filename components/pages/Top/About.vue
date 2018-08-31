@@ -1,5 +1,5 @@
 <template>
-  <section class="p-about">
+  <section class="p-about" id="p-about">
     <img src="~assets/images/leaf4.svg" class="leaf4">
     <img src="~assets/images/leaf6.svg" class="leaf6">
     <div class="p-about_frame"/>
@@ -27,6 +27,23 @@
               </p>
             </div>
           </div>
+          <div class="afterParty">
+            <h4 class="title">懇親会</h4>
+            <div class="description">
+              １日目のセッション終了後には懇親会を開催いたします！ぜひご参加いただき交流を楽しんでください。（このテキストは仮で入れています。）
+            </div>
+            <div class="row info">
+              <div class="col-2 infoTitle">会場</div>
+              <div class="col">〇〇レストラン</div>
+            </div>
+            <div class="row info">
+              <div class="col-2 infoTitle">参加費</div>
+              <div class="col">学生 1000 円　<br> 一般 3000円</div>
+            </div>
+          </div>
+          <a class="btn" href="#" target="_blank">
+            <i class="fas fa-ticket-alt"></i>
+            １日目に参加する！</a>
         </div>
         <div class="p-about_listItem">
           <div class="row">
@@ -47,8 +64,12 @@
               </p>
             </div>
           </div>
+          <a class="btn" href="#" target="_blank">
+            <i class="fas fa-ticket-alt"></i>
+            ２日目に参加する！</a>
         </div>
       </div>
+      <p class="attention">※両日参加の場合は両方のチケットの購入が必要になります！</p>
     </div>
   </section>
 </template>
@@ -182,10 +203,58 @@
           font-size: 2rem;
         }
       }
+      .btn {
+        @include btnIcon();
+        .fa-ticket-alt{
+          transform: rotate(-45deg);
+        }
+      }
 
       .description {
+        margin-bottom: 30px;
         text-align: left;
       }
+
+      .afterParty {
+        border-top: 1px dotted $clr_brown;
+        padding-top: 20px;
+
+        @include desktop {
+          padding: 20px 40px 0;
+        }
+
+
+        .title {
+          margin-bottom: .5em;
+        }
+
+        .info {
+          margin-bottom: 1rem;
+          text-align: left;
+          &:last-of-type {
+            margin-bottom: 30px;
+          }
+        }
+        .infoTitle {
+          position: relative;
+          @include desktop {
+            max-width: 60px;
+          }
+          &::after {
+            content: "：";
+            position: absolute;
+            right: 0;
+          }
+        }
+
+      }
+    }
+
+    .attention {
+      font-weight: bold;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      color: red;
     }
   }
 </style>

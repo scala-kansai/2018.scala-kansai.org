@@ -25,8 +25,8 @@
         <br>
         Scalaをテーマとした、関西で最大級の技術カンファレンスです。今年は2日間に渡っての開催となります！
       </div>
-      <a href="#p-wanted" class="p-hero_now" v-smooth-scroll="{offset: -50 }">
-        スピーカー &amp; スポンサー募集中！
+      <a href="#p-about" class="p-hero_now" v-smooth-scroll="{offset: 435 }">
+        一般参加チケット販売開始！
       </a>
       <div class="p-hero_share">
         <a class="btn" href="https://twitter.com/intent/tweet?text=Scala関西Summit 2018 - Scalaをテーマとした、関西で最大級の技術カンファレンス。今年は11月10日、11日の2日間開催！  https://2018.scala-kansai.org/&amp;hashtags=scala_ks" target="_blank">
