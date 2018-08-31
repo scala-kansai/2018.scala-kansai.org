@@ -15,40 +15,29 @@
           <div class="p-session_read">
             仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
           </div>
-          <div class="p-session_sessions" v-if="sponsors.platinum">
-            <div class="list" v-for="sponsor in sponsors.platinum" :key="sponsor.name" v-if="sponsor.job" :id="sponsor.name">
+          <div class="p-session_sessions" v-if="speakers.length">
+            <div class="list" v-for="speaker in speakers" :key="speaker.name" v-if="speaker.name" :id="speaker.name">
               <div class="listItem">
                 <div class="inner">
                   <div class="status">
-                    <span class="level high">上級者向け</span>
-                    <span class="level easy">初心者向け</span>
-                    <span class="time"><i class="far fa-clock"></i>20分</span>
+                    <span v-if="speaker.level=='中/上級者向け'" class="level high">上級者向け</span>
+                    <span v-if="speaker.level=='初心者向け'" class="level easy">初心者向け</span>
+                    <span class="time"><i class="far fa-clock"></i>{{speaker.time}}</span>
                   </div>
-                  <p class="title" target="_blank">{{sponsor.name}}</p>
-                  <div class="description" v-html="md(sponsor.job.message)" />
-                  <div class="recommend">
-                    <p class="recommendTitle">こんな人にオススメ</p>
-                    <ul>
-                      <li>Scalaの基礎文法は学んだが、何を作れるのかがまだ分からない方</li>
-                      <li>Scalaの基礎文法は学んだが、何を作れるのかがまだ分からない方</li>
-                      <li>Scalaの基礎文法は学んだが、何を作れるのかがまだ分からない方</li>
-                    </ul>
+                  <p class="title" target="_blank">{{speaker.title}}</p>
+                  <div class="description" v-html="md(speaker.description)" />
+                  <div class="target">
+                    <p class="targetTitle">こんな人にオススメ</p>
+                    <span>{{speaker.target}}</span>
                   </div>
                   <div class="speaker">
                     <div class="row">
                       <div class="col-auto">
-                        <img class="icon" src="http://placehold.it/200x200/ccc/fff/&text=hoge" alt="">
+                        <img class="icon" :src="speaker.image" alt="">
                       </div>
                       <div class="col">
-                        <div class="name">竹添 直樹</div>
-                        <p class="profile">
-                          株式会社ビズリーチ所属。Scala関連書籍の執筆・翻訳をしたり、GitBucket、Scalatra、Apache PredictionIOなどのコミッタをやったりしています。
-                        </p>
-                        <div class="links">
-                          <a href="#">GitHub</a>
-                          <a href="#">Twitter</a>
-                          <a href="#">Facebook</a>
-                        </div>
+                        <div class="name">{{speaker.name}}</div>
+                        <p class="profile" v-html="md(speaker.profile)"></p>
                       </div>
                     </div>
                   </div>
@@ -76,16 +65,11 @@ import marked from "marked"
 
 export default {
   computed:{
-    sponsors(){
-      return this.$store.state.sponsors
+    speakers(){
+      return this.$store.state.speakers
     },
   },
   methods:{
-    logoStyle (sponsor){
-      return {
-        backgroundImage: `url('/sponsors/${sponsor.image}')`
-      }
-    },
     md (string) {
       return marked(string);
     }
@@ -212,19 +196,17 @@ export default {
           font-size: 1.6rem;
           box-sizing: border-box;
           /deep/ a {
+            display: inline-block;
+            padding: 0 5px;
             color: #C95F1C;
             text-decoration: underline;
           }
         }
 
-        .recommend {
+        .target {
           margin-bottom: 20px;
-
-          ul {
-            -webkit-padding-start: 20px;
-          }
         }
-        .recommendTitle {
+        .targetTitle {
           font-weight: bold;
         }
 
@@ -244,11 +226,10 @@ export default {
             font-size: 1.8rem;
             font-weight: bold;
           }
-          .links {
-            a {
+          .profile {
+            /deep/ a {
               display: inline-block;
-              margin-right: 15px;
-              margin-bottom: 10px;
+              padding: 0 5px;
               color: #C95F1C;
               text-decoration: underline;
             }
