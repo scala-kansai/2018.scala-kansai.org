@@ -10,6 +10,7 @@
         <div class="col l-header_nav">
           <nav class="l-header_links">
             <router-link to="/#top-timetable" v-smooth-scroll="{offset: -50 }">TIME TABLE</router-link>
+            <router-link to="/session/">SESSION LIST</router-link>
             <router-link to="/#top-access" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
             <router-link to="/#top-sponsor" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
           </nav>
@@ -29,6 +30,7 @@
     </header>
     <div :class="activeMenuClass">
       <router-link to="/#top-timetable" v-on:click.native="closeNav" v-smooth-scroll="{offset: -50 }">TIME TABLE</router-link>
+      <router-link to="/session/" v-on:click.native="closeNav">SESSION LIST</router-link>
       <router-link to="/#top-access" v-on:click.native="closeNav" v-smooth-scroll="{offset: -50 }">ACCESS</router-link>
       <router-link to="/#top-sponsor" v-on:click.native="closeNav" v-smooth-scroll="{offset: -50 }">SPONSOR</router-link>
     </div>
