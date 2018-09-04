@@ -14,7 +14,7 @@
       </div>
       <div>
         <router-link to="/session" class="btn">
-          <i class="fas fa-star"></i>
+          <i class="fas fa-bookmark"></i>
           セッション一覧
         </router-link>
       </div>
