@@ -24,6 +24,10 @@
                     <span v-if="speaker.level=='初心者向け'" class="level easy">初心者向け</span>
                     <span class="time"><i class="far fa-clock"></i>{{speaker.time}}</span>
                   </div>
+                  <div class="sponsorSession">
+                    <span v-if="speaker.type=='スポンサーセッション'" class="type sponsor">スポンサーセッション</span>
+                    <h5 v-if="speaker.sponsor" class="sponsorName">{{speaker.sponsor}}</h5>
+                  </div>
                   <p class="title" target="_blank">{{speaker.title}}</p>
                   <div class="description" v-html="md(speaker.description)" />
                   <div class="target">
@@ -148,7 +152,7 @@ export default {
           }
         }
         .status {
-          margin-bottom: 20px;
+          margin-bottom: 5px;
         }
 
         .level {
@@ -165,6 +169,36 @@ export default {
         .level.easy {
           background: #0F996B;
         }
+
+        .type {
+          display: inline-block;
+          margin-right: 15px;
+          padding: 3px 5px;
+          color: white;
+          border-radius: 4px;
+          background: #ccc;
+        }
+
+        .sponsorSession {
+          margin-bottom: 20px;
+        }
+
+        .type.sponsor {
+          margin-bottom: 10px;
+          background: $clr-brown;
+        }
+
+        .sponsorName {
+          display: block;
+          margin: 0;
+          font-size: 1.6rem;
+          color: $clr_brown;
+
+          @include desktop {
+            display: inline-block;
+          }
+        }
+
         .time {
           i {
             display: inline-block;
