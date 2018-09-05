@@ -13,10 +13,9 @@
             セッション一覧
           </h3>
           <div class="p-session_read">
-            仮テキスト仮テキスト仮テキスト仮テキスト仮テキスト
           </div>
           <div class="p-session_sessions" v-if="speakers.length">
-            <div class="list" v-for="speaker in speakers" :key="speaker.name" v-if="speaker.name" :id="speaker.name">
+            <div class="list" v-for="speaker in speakers" :key="speaker.title + speaker.name" v-if="speaker.name" :id="speaker.name">
               <div class="listItem">
                 <div class="inner">
                   <div class="status">

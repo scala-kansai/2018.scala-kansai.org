@@ -1,67 +1,579 @@
 speakers:
-  - name: サンプル太郎
-    time: 20分
-    title: セッションタイトルが入りますセッションタイトルが入ります
-    description: |
-      [hoge]()セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-    level: 中/上級者向け
-    type:
-    sponsor:
-    target: Scalaの基礎文法は学んだが、何を作れるのかがまだ分からない方
-    profile: |
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      [github]()[]()[github]()
-    image: http://placehold.it/200x200/ccc/fff/&text=hoge
-    slide: 
-    movie:
-  - name: サンプル太郎２
+  - name: タラソワダーシャ
     time: 45分
-    title: セッションタイトル
+    title: http4sとcats-effectで可愛らしい、関数型らしいアプリケーションを書こう！٩(๑^o^๑)۶
     description: |
-      [hoge]()セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
-    level: 初心者向け
-    type:
+      Scalaのコード、可愛く書きたくないですか？
+      tagless final、cats effectを使って可読性の高い関数型らしいコードの書き方について発表します！٩(๑^o^๑)۶
+    level: 中/上級者向け
+    type: # スポンサーセッション
     sponsor:
-    target: とにかく初心者さん
+    target: 可読性の高いコードを書きたい方、正しく動くコードを書きたい方、関数型プログラミングに興味ある方
     profile: |
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      [github]()[]()[github]()
-    image: http://placehold.it/200x200/ccc/fff/&text=hoge
+      アメリカの大学での「ScalaでJavascriptのインタープリターを作ろー！」という謎な授業からScalaを触っています。
+      新卒の時に日本の企業に就職し、2018の3月にScala好き担当としてStart Today Technologiesに転職。
+    image: /speakers/F6KEqpw.jpeg
     slide:
     movie:
-  - name: サンプル太郎３
+
+  - name: 中村 学(がくぞ)
     time: 45分
-    title: スピーカーセッション
+    title: 明日から使える実践エラーハンドリング
     description: |
-      [hoge]()セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
+      Scalaでは例外的状況を扱う方法がよく知られているだけでも複数あります。
+      例外機構、Either、Try、etc...
+      実際の業務アプリケーションではこれらをどのように活用するべきなのか度々議論になります。
 
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
+      このセッションでは、例外的状況を扱うそれぞれの方法について「どのようなモチベーションからそれが作られたのか」「どのようなメリットデメリットがあるのか」等を整理し、実務で使う際の要件に適した手法はどれなのかを選択できるようになる事を目指します
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target:
+    profile: |
+      株式会社Tech to Value 代表取締役。Opt Technologies技術顧問。f-code CTO。
+      Scalaを中心にWeb開発やITシステムコンサルティングを行っています。
+    image: /speakers/nakamura.jpg
+    slide:
+    movie:
 
-      セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明セッションの説明
+  - name: 登壇者未定
+    time: 20分
+    title: タイトル未定
+    description: |
+
+    level: 中/上級者向け 初心者向け
+    type: スポンサーセッション
+    sponsor: スタートトゥディテクノロジーズ
+    target:
+    profile: |
+
+    image:
+    slide:
+    movie:
+
+  - name: きしだ なおき
+    time: 20分
+    title: Scala-erにも影響ありそうなJavaの現状まとめ
+    description: |
+      Javaのリリースサイクルやサポートが変更され、またJVMへの変更も多く予定されています。
+      このセッションでは、Scalaを利用する際にも影響がありそうなJavaの現状をまとめてお話したいと思います。
     level: 初心者向け
     type: スポンサーセッション
-    sponsor: 企業名がはいります
-    target: とにかく初心者さん
+    sponsor: LINE Fukuoka
+    target: Scalaにも影響がありそうなJavaの現状を知りたい人
     profile: |
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      スピーカープロフィール スピーカープロフィール スピーカープロフィール
-
-      [github]()[]()[github]()
-    image: http://placehold.it/200x200/ccc/fff/&text=hoge
+      福岡でJavaの勉強をしています Twitter: @kis
+    image: /speakers/d8713c355d8bd05a2e041d821d9e3689_400x400.jpeg
     slide:
     movie:
+
+  - name: grimrose
+    time: 45分
+    title: Akkaを分散トレーシングで見てみよう
+    description: |
+      マイクロサービス化されたアプリケーションでは、パフォーマンス測定の一つとして分散トレーシングが挙げられます。
+      Akka HTTPをAPIサーバの一つとして構築した際に、他のサービスとのやり取りを含め全体のパフォーマンスを可視化するには、分散トレーシングの仕組みに載せる必要が出てきます。
+      そこで、数ある分散トレーシングの実装の中から、MetricsとTracingの実装の一つである[OpenCensus](https://opencensus.io/)と、
+      OpenCensusが利用できる分散トレーシングのバックエンドの一つである[Jaeger](https://www.jaegertracing.io/)を用いて、
+      Akka HTTPのAPIサーバでの分散トレーシングの可視化を紹介します。
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Akkaで作られたアプリケーションの監視の必要に迫られた人
+    profile: |
+      * twitter: @grimrose
+      * github: @grimrose
+    image: /speakers/623724.jpg
+    slide:
+    movie:
+
+  - name: 登壇者未定
+    time: 20分
+    title: タイトル未定
+    description: |
+
+    level: 中/上級者向け 初心者向け
+    type: スポンサーセッション
+    sponsor: ChatWork株式会社
+    target:
+    profile: |
+
+    image:
+    slide:
+    movie:
+
+  - name: 村上 拓也
+    time: 20分
+    title: Scala でつくる証券会社とスタートアップ
+    description: |
+      「ワクワクする投資」の実現を目指す FOLIO は、金融機関とスタートアップという2つの顔を持ちます。
+
+      スタートアップとしての側面を考えると、自分たちのビジネスを一日でも早くスケールさせるべく、
+      スピーディーにプロダクトの開発や改善を進める必要があります。時にはドラスティックなプロダクトの見直しや改修が必要とされることも珍しくありません。
+
+      一方で、金融機関に求められる水準でシステムを稼働させ続けるためには信頼性・可用性・一貫性などあらゆる側面において高いレベルを要求されます。
+      ドメインが複雑であることもあり、いかに知識をコードという見える資産として積み上げるかも重要になります。
+
+      本セッションでは、FOLIO が Scala で証券サービスのバックエンドシステムを構築する理由、
+      マイクロサービスアーキテクチャを採用することで享受しようとするメリット、
+      増え続けるサービスの開発・運用を効率化するためのプラクティスのいくつかをご紹介します。
+    level: 中/上級者向け
+    type: スポンサーセッション
+    sponsor: 株式会社FOLIO
+    target:
+    profile: |
+      シンプレクス、サイバーエージェント アドテクスタジオを経て、2018年2月に FOLIO にジョイン。
+      現在はバックエンドエンジニアチームのリーダーを務める。
+    image:
+    slide:
+    movie:
+
+  - name: Lightbend / Konrad Malawski
+    time: 45分
+    title: The Actor Model and the future of distributed computing
+    description: |
+      Using the Actor Model's and Akka's evolution, adoption and way forward into more type-safe APIs for distributed processing,
+      we will look into why this model fits and scales so well in the age of distributed systems being the norm. We will talk about
+      core principles of the Actor Model itself, and about making it into real useful systems using Akka. Topics will include
+      the current Akka Actors as well as the upcoming Akka Typed as well as pondering about the future of those APIs and systems.
+
+      スライドに日本語字幕がつく予定です
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: |
+      Does not necessarily have to know Akka, but examples will be Actors and Akka most of the time.
+      General interest in distriuted systems and concurrency is the main audience.
+    profile: |
+      Konrad is a late-night hakker working on the Akka toolkit at Lightbend.
+      He has contributed to most of its modules, including core Actors, Persistence, Clustering as well as the upcoming Typed modules.
+      He was the main maintainer of Akka HTTP during its transition from Spray, and also participated in the Reactive Streams initiative, where he worked on the TCK.
+      He founded and leads multiple user groups including the GeeCON conference, and frequently shares his findings in talks and workshops internationally.
+      His interests range from high performance to distributed systems.
+      He also was recently named Java Champion, as acknowledgement of his community building and other achievements.
+    image: /speakers/1492204_4934155489651_4030401407169010010_o.jpg
+    slide:
+    movie:
+
+  - name: 竹添 直樹
+    time: 45分
+    title: 長期的なメンテナンスの必要なScala製システムにおいて気をつけるべきこと
+    description: |
+      日本でもScalaが広く利用されるようになってから数年が経ち、開発から数年が経過したScala製システムも珍しいものではなくなってきました。
+      私自身、業務システム、Webサービス、OSSのWebアプリケーションなど様々な領域でScalaを使ったシステムを開発を8年近く経験してきた中で、
+      Scala製システムのメンテナンスが問題になるケースにも度々出会ってきました
+
+      実際にScalaで作られたシステムのメンテナンスでどのような困難に出会い、乗り越えてきたのか、または乗り越えられなかったのか、
+      そしてそのような困難を避けるために予めどのようなことに気をつけておけばよいのかをお話しさせていただければと思います。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scala製システムのメンテナンスで困っている人、もしくは将来困りたくない人
+    profile: |
+      業務でScalaを書く傍ら、GitBucketやApache PredictionIO、ScalatraなどのScala製OSSの開発や、Scala関連書籍の執筆や翻訳などを行なっています。
+
+      GitHub: https://github.com/takezoe
+      Twitter: https://twitter.com/takezoen
+      Blog: http://takezoe.hatenablog.com/
+    image: /speakers/1094760.png
+    slide:
+    movie:
+
+  - name: 水島宏太
+    time: 20分
+    title: ScalaらしいIOライブラリ
+    description: |
+      Scalaには標準でまともなIOライブラリがありません。scala.ioのライブラリはろくに整備されていません。
+      [scala-io](https://github.com/scala-incubator/scala-io)という、準公式プロジェクトは成果物がリリースされる前に頓挫しました。
+      sbtのIOライブラリや[better-files](https://github.com/pathikrit/better-files)等がありますが、
+      JavaのIOライブラリの薄いラッパという面が強く、Scalaだけで極力完結するIOライブラリが欲しい私としては満足できるものではありませんでした。
+      この発表では、Rubyに影響を受けつつ、Scalaだけで極力完結するIOライブラリを目指して開発中の[scaruby](https://github.com/scaruby/scaruby)
+      に関する設計・実装を通じて、「Scalaらしい」IOライブラリとはどのようなものであるべきかについて考察します。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target:
+    profile: |
+      2011年3月筑波大学システム情報工学研究科で博士（工学）を取得後、あちこちを転々とした末、2018年11月現職。
+      プログラミング言語や構文解析が大好き。
+
+      Twitter: https://twitter.com/kmizu
+      GitHub: https://github.com/kmizu
+      Blog: http://kmizu.hatenablog.com/
+    image: /speakers/b_v8jTJ3_400x400.jpg
+    slide:
+    movie:
+
+  - name: kamijin_fanta
+    time: 20分
+    title: Akka HTTPで構築するシンプルなAPIサーバ
+    description: |
+      Akka HTTPはWebフレームワークでは有りません。他のライブラリとの親和性が高い、単なるHTTPのサーバ・クライアントライブラリです。単純なパーツを組み合わせて、Webシステム・APIサーバなどを構築することが出来ます。
+
+      Webフレームワークを使用しているが、独自の認証・ORMを導入し、フレームワーク恩恵をあまり受けられなくなった経験は無いでしょうか？Akka HTTPは、フレームワークが適さない構成に良い選択肢となります。また、扱うために必要な固有な知識も少なく、Scalaの言語さえ理解して入れば簡単に扱えるので、初心者にもオススメです。
+
+      このセッションでは、再利用可能なルーティング・型付けされたHTTPメッセージ・ディレクティブの実装方法などの理解し、Akka HTTPを実践的に扱う方法を学びます。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: 重厚なWebフレームワークが負担になってきた人・言語の構文をある程度理解し、何かを作り始めたい人
+    profile: |
+      ScalaとTypescriptを書いているエンジニア
+
+      Twitter: [@kamijin_fanta](https://twitter.com/kamijin_fanta)
+      Github: [kamijin-fanta](https://github.com/kamijin-fanta)
+    image: /speakers/1541187.png
+    slide:
+    movie:
+
+  - name: Yohei TSUJI
+    time: 45分
+    title: エンタープライズScala
+    description: |
+      ScalaはJavaと互換性のある優れた言語ですが、採用事例はまだ多いとは言えず、特にエンタープライズ用途では採用を躊躇していることも少なくないのではないでしょうか。
+
+      **「今までどおりJavaでいいんじゃない？」と言うプロジェクトこそ、Scalaを採用していただきたい！！**
+      と思いますが、開発者にScalaをどう使ってもらえばいいのか、標準化するにはノウハウが必要です。
+
+      このセッションでは、Javaの基幹システムのアーキテクトを担当してきた経験から、エンタープライズ案件でScalaを新規導入する際に気をつけたいポイントをご紹介します。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaの採用を検討している人、プロジェクトの標準化を担当している人
+    profile: |
+      フリーランスのプログラマです。
+
+      Javaを使った基幹システムのアーキテクト・開発を10年以上やってきて、ここ3年くらいはScalaでクラウドサービスを開発しています。
+      ドメイン駆動設計、マイクロサービスが好きです。
+
+      関西でもScalaの採用が増えると良いなと思っています。
+
+      * GitHub: https://github.com/crossroad0201
+      * Twitter: https://twitter.com/crossroad0201
+      * Qiita: https://qiita.com/crossroad0201
+    image: /speakers/6050819.jpg
+    slide:
+    movie:
+
+  - name: smdmts
+    time: 20分
+    title: DatabricksとSparkではじめる [データ分析/機械学習] 実践入門
+    description: |
+      DELISH KITCHENという料理動画メディアでは、SparkホスティングサービスであるDatabricksを利用してデータ分析や機械学習を行っています。
+      個人的にSparkを利用した機械学習は敷居が高い印象があったのですが、Databricksを導入して非常に簡単に実現できたことから、
+      実際のアプリケーションで行われている内容を踏まえてサンプルコードで実例を示しながらご紹介をさせていただければと思います。
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: 「データ分析について興味がある方」「Sparkをお手軽に導入してみたい方」
+    profile: |
+      株式会社エブリー所属のScala/Golang/Pythonプログラマ。
+      DELISH KITCHENというサービスのデータエンジニアとして、データ分析から配信面最適化などのグロースハックを担当しています。
+      twitter:＠smdmts github:smdmts
+    image: /speakers/A_an8Vdq_400x400.jpeg
+    slide:
+    movie:
+
+  - name: 池田健虎
+    time: 20分
+    title: 変位指定についてわかりやすく解説させてください
+    description: |
+      Scala入門〜中級者にとってScalaの変位指定は少し難しく、実際にメリットや使いどころがわからないかと思います。
+      今回具体的なコードの例を交えてなぜ変位指定をする必要があるのか、メリットなどを説明したいと思います。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaを勉強したが、変位指定とかよくわからない人。変位指定をしっかり理解したい人
+    profile: |
+      社内外でScalaを教えております。
+      https://twitter.com/taket0ra1
+    image: /speakers/eut9iJB2_400x400.jpg
+    slide:
+    movie:
+
+  - name: かとじゅん
+    time: 20分 45分
+    title: Scalaでのドメインモデリングのやり方
+    description: |
+      ドメイン駆動設計の考え方は書籍を読むとわかりますが、いざモデリングを実践しようとすると、
+      どこから手を付けていいかわからない、ドメインモデリングの始め方がよくわからないという意見を聞きます。
+      今回のセッションでは、そんな悩みを持つ皆さんに向けて「ドメインモデルを見つけ出し・実装に落とし・改善していく」方法を、
+      Scalaのコードを交えながら、できるだけわかりやすく解説します。
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: DDDを実践したい人・実践したけど挫折した人
+    profile: |
+      ChatWork 2014年7月入社／テックリードとして、次世代チャットワーク開発に従事。
+      業界歴25年、小学四年生で初めてプログラムを組む。
+      FA系、オープン系、ウェブ系など様々の現場を経験。
+      大手Web企業において、Scalaやドメイン駆動設計を採用した大規模な基盤系システムの開発に従事。
+      現職では、サーバサイドのアーキテクトとして、メッセージングシステムやOAuth関連プロダクトの開発を担当している
+    image: /speakers/serwah6yj998mua-self-prof.png
+    slide:
+    movie:
+
+  - name: 林 大介
+    time: 45分
+    title: AkkaTyped：Akkaで型安全にメッセージパッシングする！
+    description: |
+      Akkaは並行分散処理を行うスケーラブルなアプリケーションを構築するためのツールキットです。
+      なかでも中心的なコンポーネントであるAkka Actorは、アクターモデルによるメッセージでのやりとりで並行処理を実現するコンポーネントですが、そのインターフェースが型安全ではないという問題を抱えています。
+
+      それを克服するために開発されているAkka Typedというコンポーネントがあります。
+      API含めながらく検討開発されていましたが、ようやく固まりだし、各種コンポーネント(Akka StreamsやAkka Cluster)との統合APIも開発が進んでいます。
+      このセッションでは、型安全なメッセージパッシングを実現するAkka Typedを、現在のAkka Actorでよくある実装方法と比較しながらご紹介します。
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaが好きな人、Akkaを愛している人、hakkers
+    profile: |
+      大阪のWeb企業に務めるソフトウェアエンジニア。
+      仕事でもプライベートでもScalaを好んで使っています。(Scala歴5年程, 2013~)
+      最近はAkka Remote(Artery)でも利用されているAeronや、QUIC等のUDPベースのトランスポートレイヤープロトコルに興味があります。
+    image: /speakers/prof_image.png
+    slide:
+    movie:
+
+  - name: 森本真一
+    time: 45分
+    title: circeから学ぶ Generic Programming 入門
+    description: |
+      Scalaには、Json Libraryが多々ありますが、その中の一つであるcirceには興味深い機能があります。
+      通常Json Libraryを利用する際にはEncoderやDecoderを定義する必要がありますが、circeにはそれらを自動的に導出する機能があります。
+      この機能で利用されているのがGeneric Programmingです。
+
+      本セッションではcirceの実装を通して、ScalaでGeneric Programmingを実現するライブラリであるshapelessの使い方を紹介します。
+      またshapelessの使い方を知ることで、Generic Programmingとはどのようなものか、その利点について紹介します。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Generic Programmingとはどのようなものか知りたい人
+    profile: |
+      Fringe81でScalaでのサーバーサイドエンジニアをしています。主にアドプロダクトを担当しています。
+
+      - [shnmorimoto](https://twitter.com/shnmorimoto)
+      - [shnmorimoto](https://github.com/shnmorimoto)
+    image: /speakers/1239431.jpg
+    slide:
+    movie:
+
+  - name: 谷口力斗 @tanishiking
+    time: 20分 45分
+    title: Format things with scalafmt
+    description: |
+      コードフォーマッタの導入はコーディング規約の強制や大規模な自動リファクタリングなどソフトウェア開発に非常に多くの恩恵をもたらします。
+      scala以外の言語でもgofmtやprettierなど様々なコードフォーマッタが開発されており、多くのソフトウェア開発者に日々活用されています。
+
+      scalaのコードフォーマッタも活発に開発されています。
+      scalaのコードフォーマッタの一つであるscalafmtは多くのscalaプロジェクトで採用されているツールです。
+
+      この発表ではscalafmtの紹介、またscalafmtの数多くある設定項目のうち一部を紹介しscalafmtの高機能さを享受するための方法についてお話しようと思います。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: コードフォーマッターの導入を検討している人
+    profile: |
+      - https://twitter.com/tanishiking
+      - https://github.com/tanishiking
+
+      株式会社はてなでWebアプリケーションエンジニアをしています。リンタやフォーマッタの開発に興味がありプライベートではたまにscalafmtやscalafixの開発をお手伝いしています。
+    image: /speakers/L9nAcOzi_400x400.jpg
+    slide:
+    movie:
+
+  - name: 門脇 拓巳
+    time: 20分
+    title: Readable Code in Scala
+    description: |
+      Scalaはとても表現力のある、自由度の高いプログラミング言語です。
+      それゆえに、書き手によって様々な記述が生まれてしまうのも事実です。
+      このセッションでは、『読みにくい』Scalaコードをリファクタリングして得られた経験、
+      『読みやすい』Scalaコードを書くためのtipsをご紹介します。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaコードの保守を仕事とする人、ある程度標準ライブラリに親しんだ初級者の人
+    profile: |
+      株式会社セプテーニ・オリジナル所属。
+      広告運用管理ツールである、PYXISの開発に関わっています。
+
+      Scalaが主食で、DevOpsがデザート。おいしい。
+
+      + Twitter: @blac_k_ey
+      + GitHub: NomadBlacky
+    image: /speakers/86d62651aafabeb3628501005331d98c.png
+    slide:
+    movie:
+
+  - name: 伊藤博志
+    time: 45分
+    title: Scalaで実装してみる簡易ブロックチェーン
+    description: |
+      昨今、巷でブロックチェーンという言葉をよく聞くものの、それが一体どういうものなのかまだよく分からない方も多いと思います。
+
+      本セッションでは、ブロックチェーンの基本を説明するとともに、実際にScalaで簡易ブロックチェーンを実装してみることでそのデータ構造やコンセンサスアルゴリズムについて理解を深めます。実装サンプルはGitHubにて公開予定。
+
+      ブロックチェーンの前提知識がない方に向けてのセッションとなりますので、すでにブロックチェーンについて詳しい方にとっては物足りない可能性があります。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: ブロックチェーンに興味があるがその中身についてまだよく分かっていない人
+    profile: |
+      株式会社FOLIOのシニアソリューションアーキテクト。金融事業とエンジニアリングをつなげるお仕事をしています。
+
+      Twitter: https://twitter.com/itohiro73
+      GitHub: https://github.com/itohiro73
+      Blog: http://itohiro73.hatenablog.com/
+    image: /speakers/2220637.jpg
+    slide:
+    movie:
+
+  - name: 佐藤 貴比呂
+    time: 20分
+    title: もしExcel方眼紙を愛するSIerがScala案件に投げ込まれたら
+    description: |
+      直近2年開発から遠ざかっていたSIer(Scala未経験)が転職したら、初日からScala案件に投げ込まれてしまった...。
+      こんな状況でどのようにScalaを学習し、プロジェクトを生き抜いたか、そしてを何を得たのかを語ります。
+      Scalaって難しい？Scalaやってる人って怖い？Scala警察って実在するの？こんな疑問にもお答えします！
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaで仕事をしてみたいけど二の足を踏んでしまっている全ての人
+    profile: |
+      2010年4月、新卒で某SIerに入社。以降、大小様々な開発案件に従事した後、保守リーダーを2年間務める。もう一度開発を行いたいという気持ちが捨てきれず、2017年7月に株式会社アットウェアに入社する。
+      * Twitter
+      https://twitter.com/Satoooooooooooo
+      * ブログ
+      http://satoooooooooooo.hatenablog.com/
+    image: /speakers/Satoooooooooooo_400x400.jpg
+    slide:
+    movie:
+
+  - name: t_horikoshi
+    time: 20分
+    title: Json codec を楽しもう、現場で役立つ circe
+    description: |
+      Webアプリケーションなんかを開発していると、
+      例として Http Request/Response を処理するのに大抵は Json を扱いますよね。
+
+      わたしは Scala を触り始めてから長らく play-json と歩みを共にしてきたのですが、
+      最近(今更)、 circe を触ってみて大変便利でしたので実コードと解説を交えながら紹介していこうかと思います。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Scalaでの Json codec 実装に感心がある人
+    profile: |
+      **名前**
+
+      t_horikoshi
+
+      **所属**
+      セプテーニ・オリジナル
+
+      **職業**
+      1. ソフトウェアエンジニア
+      2. フィットネスエンジニア
+
+      **趣味**
+      フィットネス
+
+      **SNS**
+
+      **twitter**
+      https://twitter.com/tkt_hoorie
+
+      **facebook**
+      https://www.facebook.com/takat0.H0rikosh1
+
+      **Septeni Engineer's Blog**
+      http://labs.septeni.co.jp/entry/2018/08/20/210538
+    image: /speakers/20952938_1433574243364088_6791005727140736959_n.jpg
+    slide:
+    movie:
+
+  - name: 小紫 弘貴
+    time: 45分
+    title: 実践GraphQL on Scala
+    description: |
+      Facebookが提唱してGithubが採用するなど、世界的にも日本的にも流行の兆しが見えるGraphQL。
+      そのGraphQLをAPIサーバの設計にGraphQLを採用し、実装にはSangriaを用いてすでに本番環境で稼働しています。
+      このセッションでは、そもそもなぜGraphQLを採用したのか、どういったプロダクトの開発に採用したのかといった背景に加えて、
+      GraphQLなAPIサーバをどう設計し、どのように開発していくのかについて紹介します。
+    level: 中/上級者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: GraphQLに興味のある人、Web API開発をしている人
+    profile: |
+      Fringe81株式会社でサーバサイドエンジニアとしてScalaを書いています。新規プロダクトの基盤設計・実装をやることが多いです。
+      Github: https://github.com/petitviolet
+      Twitter: https://twitter.com/petitviolet
+      Speakerdeck: https://speakerdeck.com/petitviolet
+    image: /speakers/8575c9126a8e1179b4013fb48a25c2a7.jpeg
+    slide:
+    movie:
+
+  - name: 藤野宏樹
+    time: 45分
+    title: scalaでの並行・並列処理戦略
+    description: |
+      並行・並列処理については、過去から現在までにおいて、様々な方法が提案されています。
+      Scalaにおいても、デファクトになっているFutureの他にActorやparallel collection等の様々な方法で並行・並列処理を実現することができます。
+
+      本セッションでは、Scalaにおける様々な並行・並列処理について、それぞれの仕組みおよび特徴について紹介します。
+      またそれぞれの手法を比較し、適切なユースケースについても紹介します。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: 並行・並列処理に興味がある人
+    profile: |
+      https://github.com/Hiroki6
+    image: /speakers/fb459a2afdf9f0f9fc2fe015a8f1c22b.jpg
+    slide:
+    movie:
+
+  - name: 登壇者未定
+    time: 40分
+    title: 初心者向けハンズオン(仮) 1
+    description: |
+
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target:
+    profile: |
+
+    image:
+    slide:
+    movie:
+
+  - name: 登壇者未定
+    time: 30分
+    title: 初心者向けハンズオン(仮) 2
+    description: |
+
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target:
+    profile: |
+
+    image:
+    slide:
+    movie:
+
+  # template
+  # - name:
+  #   time: 20分 45分
+  #   title:
+  #   description: |
+
+  #   level: 中/上級者向け 初心者向け
+  #   type: # スポンサーセッション
+  #   sponsor:
+  #   target:
+  #   profile: |
+
+  #   image:
+  #   slide:
+  #   movie:
