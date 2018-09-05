@@ -187,6 +187,26 @@ sponsors:
           こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。
         buttonTitle:
         url: "https://www.sakura.ad.jp/recruit/"
+    - name: 株式会社マイクロアド
+      url: ""
+      image: microad.png
+      job:
+        image: microad.png
+        message: |
+          <a href="https://www.microad.co.jp/">マイクロアド</a>は、データとテクノロジーでマーケティングを成功に導く、をテーマに、インターネット広告業界最先端の自社サービス開発をしています。
+          例えば･･･
+
+          - 毎秒30万件のトラフィックを5msecで応答する広告配信サーバの開発
+          - 日次で50億件超のログデータに対するETL処理の開発
+          - データ分析用ダッシュボード画面の開発
+
+          など、技術的にも新しいチャレンジがたくさん出来る環境になります。
+          よろしければ、<a href="https://developers.microad.co.jp/">Tech blog</a>も是非、見てください。
+          ▽Scala関連Tech blog記事
+          <a href="https://developers.microad.co.jp/entry/2018/04/03/121012">順序保証型分散ストリーム処理について</a>
+          <a href="https://developers.microad.co.jp/entry/2018/04/25/130525">広告配信プログラム PerlからScalaへの軌跡</a>
+        buttonTitle:
+        url: "https://recruit.microad.co.jp/?page_id=56"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
