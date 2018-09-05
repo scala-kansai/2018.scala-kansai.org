@@ -15,10 +15,10 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "marked": "^0.4.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
-    "nuxt": "^1.0.0",
-    "sass-loader": "^7.0.1",
+    "nuxt": "^1.4.2",
+    "sass-loader": "^7.1.0",
     "vue-smooth-scroll": "^1.0.13",
     "yaml-loader": "^0.5.0"
   },
