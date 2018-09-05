@@ -21,6 +21,11 @@ $ npm run generate
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
 
+## スピーカー情報の修正方法
+
+- [SPEAKER.md](./SPEAKER.md) をお読みください
+
+
 ## スポンサー情報の追加方法
 
 1. ブランチを作成 `sponsor/hogehoge`
