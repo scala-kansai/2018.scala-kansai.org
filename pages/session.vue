@@ -19,7 +19,7 @@
               <div class="listItem">
                 <div class="inner">
                   <div class="status">
-                    <span v-if="speaker.level=='中/上級者向け'" class="level high">上級者向け</span>
+                    <span v-if="speaker.level=='中/上級者向け'" class="level high">中/上級者向け</span>
                     <span v-if="speaker.level=='初心者向け'" class="level easy">初心者向け</span>
                     <span class="time"><i class="far fa-clock"></i>{{speaker.time}}</span>
                   </div>
