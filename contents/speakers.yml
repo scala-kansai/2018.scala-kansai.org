@@ -179,6 +179,32 @@ speakers:
     slide:
     movie:
 
+  - name: リチャード　伊真岡
+    time: 45分
+    title: アニメーションで理解するAkka StreamsとAkka HTTP
+    description: |
+
+      知らない技術を理解するときに図解やアニメーションで理解するのは好きですか？私は大好きです。
+      このセッションはAkka StreamsおよびAkka HTTPに関して、
+      [アニメーション](https://richardimaoka.github.io/blog/TCP-streaming-0235c7653c929221a95b9b1bc26e766d.gif)で理解の手助けをしようというものです。
+      Akka StreamsやAkka HTTPに関しては、私が見る限りの本番環境での導入がだいぶ広がってきているという印象があります。
+      昨年のScala関西 Summitを含む各カンファレンスでの発表などをみても、そう感じているところです。
+      ただ、どちらも内部動作がわかりにくいライブラリだと思います。興味がある、あるいは普段使ってはいるものの、
+      Akka自体を勉強する時間があまりとれないため、なんとなくコードは書けるが「何が起こっているかわからない」
+      「何に注意すべきかわからない」という人もいるのではないでしょうか？
+      このセッションでは、アニメーションによって内部動作の理解のきっかけを掴むことで、実際のコードを探るときの助けになる、
+      ドキュメントを読んでより頭に入ってきやすくなる、ということを目指しています。
+    level: 初心者向け
+    type: # スポンサーセッション
+    sponsor:
+    target: Akka StreamsやAkka HTTPの内部の動作を知りたいという人
+    profile: |
+      Scalaプログラマのリチャード伊真岡と申します。
+      仕事でScalaを書きながら、[ときどきAkkaに貢献しています。](http://richard-imaoka.hatenablog.com/entry/2018/05/22/102243)
+    image: /speakers/14bfbc98a7d5ed3574be08f6b176ce70.jpg
+    slide:
+    movie:
+
   - name: 水島宏太
     time: 20分
     title: ScalaらしいIOライブラリ
