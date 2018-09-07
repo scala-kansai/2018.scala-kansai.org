@@ -7,9 +7,16 @@
         <br>
         もうしばらくお待ち下さい。公開までお楽しみに！
         <br>
-        現在、みなさんがどんなセッションを聞きたいかの調査アンケートを実施中です！ｌ <br>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgBnUpW2lSkv5eddA34S_3VUMNf_BcD_Gw1bW5Jnyhqn6vWA/viewform?usp=sf_link" target="_blank">こちらのリンク</a>
-        からぜひご協力ください。
+      </div>
+      <h3 class="p-timeTable_heading">セッション</h3>
+      <div class="p-timeTable_read">
+        セッションの詳細や登壇者プロフィールなどはこちらよりご確認ください。
+      </div>
+      <div>
+        <router-link to="/session" class="btn">
+          <i class="fas fa-bookmark"></i>
+          セッション一覧
+        </router-link>
       </div>
     </div>
   </section>
@@ -35,6 +42,11 @@
     a{
       text-decoration: underline;
     }
+
+    .btn {
+      @include btnIcon();
+    }
+
     &_heading {
       @include secHeading;
     }
