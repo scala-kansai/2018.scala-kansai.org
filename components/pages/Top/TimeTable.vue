@@ -6,7 +6,7 @@
         <iframe class="p-timeTable_PDF" src="https://drive.google.com/file/d/1vdQXIf4D4M-iVFgShDB3YZwGyq48eUEi/preview"></iframe>
       </div>
       <div class="p-timeTable_read">
-        <a class="btn" href="https://drive.google.com/file/d/1vdQXIf4D4M-iVFgShDB3YZwGyq48eUEi/preview">
+        <a class="btn" href="https://drive.google.com/file/d/1vdQXIf4D4M-iVFgShDB3YZwGyq48eUEi/preview" target="_blank">
           <i class="fas fa-search-plus"></i>
           別窓で開く
         </a>
