@@ -2,11 +2,14 @@
   <section class="p-timeTable" id="top-timetable">
     <div class="c-container">
       <h3 class="p-timeTable_heading">タイムテーブル</h3>
+      <div class="p-timeTable_timeTable">
+        <iframe class="p-timeTable_PDF" src="https://drive.google.com/file/d/1vdQXIf4D4M-iVFgShDB3YZwGyq48eUEi/preview"></iframe>
+      </div>
       <div class="p-timeTable_read">
-        comming soon...
-        <br>
-        もうしばらくお待ち下さい。公開までお楽しみに！
-        <br>
+        <a class="btn" href="https://drive.google.com/file/d/1vdQXIf4D4M-iVFgShDB3YZwGyq48eUEi/preview" target="_blank">
+          <i class="fas fa-search-plus"></i>
+          別窓で開く
+        </a>
       </div>
       <h3 class="p-timeTable_heading">セッション</h3>
       <div class="p-timeTable_read">
@@ -53,6 +56,23 @@
 
     &_read {
       @include secRead;
+    }
+    &_timeTable {
+      margin-bottom: 10px;
+      max-width: 100%;
+      height: 200px;
+      overflow: scroll;
+
+      @include desktop{
+        height: 600px;
+      }
+    }
+
+    &_PDF {
+      min-width: 100%;
+      @include desktop{
+        height: 600px;
+      }
     }
 
   }
