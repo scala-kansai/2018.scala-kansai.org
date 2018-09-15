@@ -218,6 +218,30 @@ sponsors:
           <a href="https://developers.microad.co.jp/entry/2018/04/25/130525">広告配信プログラム PerlからScalaへの軌跡</a>
         buttonTitle:
         url: "https://recruit.microad.co.jp/?page_id=56"
+    - name: 株式会社リンコード
+      url: "https://www.linkode.co.jp"
+      image: linkode.png
+      job:
+        image: linkode.png
+        message: |
+          今日も稼働しているシステムをScalaで！
+
+          当社は、通信キャリア会社様や通信事業会社様で広く採用されている
+          音声認識、機械翻訳のシステム開発をメインに行っています。
+          これらの開発では、多くの端末から送信されるデータを
+          非同期並列に、かつ高速で処理することが求められます。
+          このようなシステムをScala + Akkaをベースにゼロから設計開発しています。
+
+          当社では、"今日も稼働しているシステム"開発に本気で取り組んでみたい
+          エンジニアの採用を積極的に行っています。
+
+          また、培った知識とスキルを元に自社プロダクト開発も開始しており、
+          Scalaで"明日稼働するシステム"の開発に携わりたいエンジニアも募集しています。
+
+          当社に少しでも興味を持たれた方は、当社採用情報ページをご参照ください。
+          10月から、広くてきれいな新オフィスで働けます！！
+        buttonTitle:
+        url: "http://linkode.recruitment.jp/career/"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
