@@ -141,6 +141,17 @@ sponsors:
           Forkwellはこれからもさまざまなサービスを通じて、エンジニアの皆さまの成長を全力で支援します。
         buttonTitle:
         url: "https://forkwell.com"
+    - name: クラスメソッド株式会社
+      url: "https://classmethod.jp/"
+      image: classmethod_yoko_colorblack.png
+      job:
+        image: classmethod_yoko2_colorblack.png
+        message: |
+          [クラスメソッド株式会社](https://classmethod.jp/)は「AWSクラウド、ビッグデータ、モバイル、センサー、音声認識」の技術を活用した企業向け支援を行っています。AWS支援では2015年から4年連続で公式の最上位コンサルティングパートナーに認定されており、現在までに700社2500アカウント以上のAWS導入実績があります。
+
+          また、社員による技術情報発信にも力を入れており、オウンドメディア「[Developers.IO](https://dev.classmethod.jp/)」にて1万本以上の技術情報を公開中です。「すべての人々の創造活動に貢献し続ける」という企業理念のもとに幅広い分野で活動しています。
+        buttonTitle:
+        url: "https://classmethod.jp/recruit/"
     - name: 株式会社Tech to Value
       url: "http://www.t2v.jp/"
       image: t2v.png
