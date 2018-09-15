@@ -218,6 +218,25 @@ sponsors:
           <a href="https://developers.microad.co.jp/entry/2018/04/25/130525">広告配信プログラム PerlからScalaへの軌跡</a>
         buttonTitle:
         url: "https://recruit.microad.co.jp/?page_id=56"
+    - name: TIS株式会社
+      url: "https://www.tis.co.jp/"
+      image: tis.png
+      job:
+        image: tis.png
+        message: |
+          TISは新技術を活用したさまざまな研究開発に取り組んでいます。
+          リアクティブシステムの思想を取り入れた分散システムで、高可用・高スループットなエンタープライズシステムの構築にチャレンジしたいエンジニアを募集しています。
+
+          - Scalaで書きたい
+          - Akkaを使いたい
+          - 自分の技術で社会に貢献してみたい
+          - リモートワークなど柔軟な働き方をしたい
+
+          そうお考えのあなた、TISで一緒に働きませんか？
+
+          TISは、SI・受託開発に加え、データセンターやクラウドなどサービス型のITソリューションを多数提供しています。同時に、中国・ASEAN地域を中心としたグローバルサポート体制も整え、金融、製造、流通/サービス、公共、通信など様々な業界で3000社以上のビジネスパートナーとして、お客様の事業の成長に貢献しています。
+        buttonTitle:
+        url: "https://www.tis-careers.com/sp/job.phtml?job_code=447"
     - name: 株式会社リンコード
       url: "https://www.linkode.co.jp"
       image: linkode.png
