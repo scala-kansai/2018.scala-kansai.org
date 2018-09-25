@@ -269,6 +269,21 @@ sponsors:
           10月から、広くてきれいな新オフィスで働けます！！
         buttonTitle:
         url: "http://linkode.recruitment.jp/career/"
+    - name: Fringe81株式会社
+      url: "http://www.fringe81.com/"
+      image: fringe.png
+      job:
+        image: fringe.png
+        message: |
+          Fringe81株式会社は、ブランドイデオロギーに「Be An Explorer（探検家たれ）」を掲げ、さまざまなサービス・プロダクトを展開しています。
+          既存の領域に限らず、時流を読み、仮説を生み出し、テクノロジーの力で優れたプロダクトを生み出し続けます。
+
+          プロダクト開発では2012年よりScalaを採用し、「<a href="https://unipos.me/ja/">Unipos</a>」「<a href="https://www.fringe81.com/service/">docomo Ad Network</a>」等多くのプロダクトをローンチ。DDDや関数型プログラミングにも取り組んでいます。
+          新規事業の立ち上げ機会が多く、0->1の開発に参加するチャンスも豊富です。
+
+          <a href="https://www.fringe81.com/join/engineer/">Fringeのエンジニア採用ページはこちら</a>
+        buttonTitle:
+        url: "http://www.fringe81.com/join/engineer/"
   bronze:
     - name: Kuchitama
       url: "https://twitter.com/kuchitama"
