@@ -12,7 +12,7 @@
               関西だけでなく、毎年日本全国から多く参加者が集まるこのイベントで、参加者とスポンサーの良い出会いがあるものと期待しています。
               さまざまなスポンサー特典を用意していますので、ご支援よろしくお願いします。
             </div>
-            <div class="deadline">応募締切：2018年9月30日</div>
+            <div class="deadline">応募締切：2018年10月7日</div>
             <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdEdPzvXlaB7RfeaqmIy4hPpGlhz-I8ciNw-QNws7S150gHgg/viewform?usp=sf_link" target="_blank">
               <i class="fas fa-star"></i>
               スポンサー申込み</a>
