@@ -36,18 +36,20 @@ speakers:
     slide:
     movie:
 
-  - name: 登壇者未定
+  - name: タラソワダーシャ
     time: 20分
-    title: タイトル未定
+    title: ZOZOSUITはScalaで動いてるよ！
     description: |
-
-    level: 中/上級者向け 初心者向け
+      話題のZOZOSUITの裏側で実はScalaが動いています！
+      簡単にどの部分でScalaがどのように使われているのか、チーム構成や企業でScalaを利用することについてお話をさせていただきます。
+    level: 初心者向け
     type: スポンサーセッション
     sponsor: スタートトゥディテクノロジーズ
-    target:
+    target: Scalaに興味ある人、実際に企業でどのようにScalaが使われているか知りたい人
     profile: |
-
-    image:
+      アメリカの大学での「ScalaでJavascriptのインタープリターを作ろー！」という謎な授業からScalaを触っています。
+      新卒の時に日本の企業に就職し、2018の3月にScala好き担当としてStart Today Technologiesに転職。
+    image: /speakers/F6KEqpw.jpeg
     slide:
     movie:
 
