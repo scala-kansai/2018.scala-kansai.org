@@ -7,3 +7,14 @@ import VueScrollTo from 'vue-scrollto'
 
 Vue.use(vueSmoothScroll)
 Vue.use(VueScrollTo)
+
+Vue.mixin({
+  mounted(){
+    const tar = document.getElementById(decodeURI(location.hash.substr(1)));
+    if(tar){
+      this.$scrollTo(tar,500,{
+        offset: -80
+      })
+    }
+  }
+})
