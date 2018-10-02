@@ -76,7 +76,7 @@ export default {
     md (string) {
       return marked(string);
     }
-  }
+  },
 }
 </script>
 
