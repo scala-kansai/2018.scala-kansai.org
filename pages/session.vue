@@ -77,6 +77,15 @@ export default {
       return marked(string);
     }
   },
+  mounted(){
+    const tar = document.getElementById(decodeURI(location.hash.substr(1)));
+    if(tar){
+      this.$scrollTo(tar,500,{
+        offset: -80
+      })
+    }
+
+  }
 }
 </script>
 
