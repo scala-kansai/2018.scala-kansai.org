@@ -2,7 +2,7 @@
   <section>
     <sec-hero></sec-hero>
     <sec-about></sec-about>
-    <sec-wanted></sec-wanted>
+    <!-- <sec-wanted></sec-wanted> 募集終了につき削除 -->
     <sec-time-table></sec-time-table>
     <sec-access></sec-access>
     <sec-sponsor :sponsors="sponsors"></sec-sponsor>
