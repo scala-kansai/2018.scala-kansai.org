@@ -1,12 +1,12 @@
 sponsors:
   platinum:
-    - name:  株式会社スタートトゥデイテクノロジーズ
-      url: "https://www.starttoday-tech.com/"
-      image: starttoday.png
+    - name:  株式会社ZOZOテクノロジーズ
+      url: "https://tech.zozo.com/"
+      image: zozo_technologies.png
       introduction: 私たちは、スタートトゥデイグループの技術開発・サービス運用部門となる企業です。“70億人のファッションを技術の力で変えていく”というミッションの元、ビッグデータの活用と技術革新の加速を目指しています。
       job:
         title: ７０億人のファッションを技術の力で変えたいエンジニア募集！
-        image: starttoday.png
+        image: zozo_technologies.png
         message: |
           株式会社スタートトゥデイテクノロジーズ は、スタートトゥデイグループに所属するエンジニア・デザイナー・アナリストなど制作に携わる全ての技術者が集結した、技術開発・サービス運用部門となる企業です。
           "70億人のファッションを技術の力で変えていく"というミッションの元、保有するビッグデータの更なる活用、技術革新の加速を目指しています。
@@ -16,9 +16,9 @@ sponsors:
 
           プライベートブランドのECプラットフォームや体型データを元にした計算サーバーは、Scalaによって書かれています。今後拡大していく上で、強力な型システムから得られる高い信頼性と、大規模なシステムの中で並列処理を利用した高速性を追求するために、Scalaを採用しています。
 
-          ECプラットフォームでScalaを採用している企業はまだまだ多くはありませんが、一見交わることのない「ファッション×Scala」の領域に挑戦したい方、[ご応募](https://www.starttoday-tech.com/recruit/mid-career/detail20/)お待ちしております！
+          ECプラットフォームでScalaを採用している企業はまだまだ多くはありませんが、一見交わることのない「ファッション×Scala」の領域に挑戦したい方、[ご応募](https://tech.zozo.com/recruit/mid-career/detail20/)お待ちしております！
         buttonTitle:
-        url: https://www.starttoday-tech.com/recruit/
+        url: https://tech.zozo.com/recruit/
   gold:
     - name:  LINE株式会社
       url: "https://engineering.linecorp.com/ja/"
