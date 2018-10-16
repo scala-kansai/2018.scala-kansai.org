@@ -226,6 +226,14 @@ sponsors:
           <a href="https://developers.microad.co.jp/entry/2018/04/25/130525">広告配信プログラム PerlからScalaへの軌跡</a>
         buttonTitle:
         url: "https://recruit.microad.co.jp/?page_id=56"
+    - name: 株式会社エフ・コード
+      url: "https://f-code.co.jp/"
+      image: fcode.png
+      job:
+        image: fcode.png
+        message: |
+        buttonTitle:
+        url: "https://f-code.co.jp/"
     - name: TIS株式会社
       url: "https://www.tis.co.jp/"
       image: tis.png
