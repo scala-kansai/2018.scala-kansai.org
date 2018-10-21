@@ -74,6 +74,11 @@
           </div>
         </div>
       </div>
+      <div class="p-sponsor_about">
+        <div class="link">
+          <a class="btn" href="https://drive.google.com/file/d/1rOKXxihm3E3qmdBSS3ZEq1nC5Ba6DlHj/view">スポンサーシップのご案内</a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -381,6 +386,29 @@ export default  {
             display: block;
             padding-top: 80%;
           }
+        }
+      }
+    }
+
+
+    &_about {
+      .btn {
+        display: inline-block;
+        margin-left: 5px;
+        padding: 13px 20px;
+        max-width: 180px;
+        border-radius: 30px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #F07423;
+        background: white;
+        cursor: pointer;
+        @include desktop {
+        max-width: 320px;
+          padding: 13px 25px;
+          font-size: 1.7rem;
+          font-weight: normal;
         }
       }
     }
