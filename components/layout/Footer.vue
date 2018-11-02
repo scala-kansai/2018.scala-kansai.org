@@ -44,7 +44,11 @@
     <div class="p-ohter">
       <div class="c-container">
         <div class="p-copyRight">
-          <small>copyright &copy; 2018 Scala関西ユーザーグループ All Rights Reserved.</small>
+          <small>
+            copyright &copy; 2018 Scala関西ユーザーグループ All Rights Reserved.
+            <br />
+            Japan Scala Association, Inc.
+          </small>
         </div>
         <div class="p-history">
           <a href="http://summit.scala-kansai.org/2017/index.html" target="_blank">2017</a>
