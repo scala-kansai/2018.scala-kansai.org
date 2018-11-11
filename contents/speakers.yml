@@ -33,7 +33,7 @@ speakers:
       株式会社Tech to Value 代表取締役。Opt Technologies技術顧問。f-code CTO。
       Scalaを中心にWeb開発やITシステムコンサルティングを行っています。
     image: /speakers/nakamura_2.jpg
-    slide:
+    slide: http://gakuzzzz.github.io/slides/error_handling_practice/#1
     movie:
 
   - name: タラソワダーシャ
@@ -66,7 +66,7 @@ speakers:
     profile: |
       福岡でJavaの勉強をしています Twitter: @kis
     image: /speakers/d8713c355d8bd05a2e041d821d9e3689_400x400.jpeg
-    slide:
+    slide: https://www.slideshare.net/linecorp/summary-of-the-state-of-java-that-will-affect-scalaers
     movie:
 
   - name: grimrose
@@ -86,7 +86,7 @@ speakers:
       * twitter: @grimrose
       * github: @grimrose
     image: /speakers/623724.jpg
-    slide:
+    slide: http://nbviewer.jupyter.org/format/slides/github/grimrose/scala-kansai-summit-2018/blob/master/slide.ipynb#/
     movie:
 
   - name: 原田真吾
@@ -128,7 +128,7 @@ speakers:
       シンプレクス、サイバーエージェント アドテクスタジオを経て、2018年2月に FOLIO にジョイン。
       現在はバックエンドエンジニアチームのリーダーを務める。
     image: /speakers/0081_0619.jpg
-    slide:
+    slide: https://speakerdeck.com/mura_mi/securities-and-startup-with-scala
     movie:
 
   - name: Lightbend / Konrad Malawski
@@ -205,7 +205,7 @@ speakers:
       Scalaプログラマのリチャード伊真岡と申します。
       仕事でScalaを書きながら、[ときどきAkkaに貢献しています。](http://richard-imaoka.hatenablog.com/entry/2018/05/22/102243)
     image: /speakers/14bfbc98a7d5ed3574be08f6b176ce70.jpg
-    slide:
+    slide: https://youtu.be/NBKpr7bL22M
     movie:
 
   - name: 水島宏太
@@ -281,7 +281,7 @@ speakers:
       * Twitter: https://twitter.com/crossroad0201
       * Qiita: https://qiita.com/crossroad0201
     image: /speakers/6050819.jpg
-    slide:
+    slide: https://speakerdeck.com/crossroad0201/entapuraizu-scala
     movie:
 
   - name: smdmts
@@ -300,7 +300,7 @@ speakers:
       DELISH KITCHENというサービスのデータエンジニアとして、データ分析から配信面最適化などのグロースハックを担当しています。
       twitter:＠smdmts github:smdmts
     image: /speakers/A_an8Vdq_400x400.jpeg
-    slide:
+    slide: https://speakerdeck.com/smdmts/databrick-and-spark-with-data-analyze-and-ml-for-newbie
     movie:
 
   - name: 池田健虎
@@ -317,7 +317,7 @@ speakers:
       社内外でScalaを教えております。
       https://twitter.com/taket0ra1
     image: /speakers/eut9iJB2_400x400.jpg
-    slide:
+    slide: https://gitpitch.com/taketora26/scala_ks_2018/master?grs=github&t=white#/
     movie:
 
   - name: かとじゅん
@@ -339,7 +339,7 @@ speakers:
       大手Web企業において、Scalaやドメイン駆動設計を採用した大規模な基盤系システムの開発に従事。
       現職では、サーバサイドのアーキテクトとして、メッセージングシステムやOAuth関連プロダクトの開発を担当している
     image: /speakers/serwah6yj998mua-self-prof.png
-    slide:
+    slide: https://speakerdeck.com/j5ik2o/scaladefalsedomeinmoderingufalseyarikata
     movie:
 
   - name: 林 大介
@@ -361,7 +361,7 @@ speakers:
       仕事でもプライベートでもScalaを好んで使っています。(Scala歴5年程, 2013~)
       最近はAkka Remote(Artery)でも利用されているAeronや、QUIC等のUDPベースのトランスポートレイヤープロトコルに興味があります。
     image: /speakers/prof_image.png
-    slide:
+    slide: https://speakerdeck.com/hayasshi/akka-typed-typesafe-messaging
     movie:
 
   - name: 森本真一
@@ -384,7 +384,7 @@ speakers:
       - [shnmorimoto](https://twitter.com/shnmorimoto)
       - [shnmorimoto](https://github.com/shnmorimoto)
     image: /speakers/1239431.jpg
-    slide:
+    slide: https://speakerdeck.com/shnmorimoto/circekaraxue-bu-genericprogrammingru-men-scalaguan-xi-summit-2018
     movie:
 
   - name: 谷口力斗 @tanishiking
@@ -408,7 +408,7 @@ speakers:
 
       株式会社はてなでWebアプリケーションエンジニアをしています。リンタやフォーマッタの開発に興味がありプライベートではたまにscalafmtやscalafixの開発をお手伝いしています。
     image: /speakers/L9nAcOzi_400x400.jpg
-    slide:
+    slide: https://github.com/tanishiking/scalaunfmt
     movie:
 
   - name: 門脇 拓巳
@@ -432,7 +432,7 @@ speakers:
       + Twitter: @blac_k_ey
       + GitHub: NomadBlacky
     image: /speakers/86d62651aafabeb3628501005331d98c.png
-    slide:
+    slide: https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/
     movie:
 
   - name: 伊藤博志
@@ -455,7 +455,7 @@ speakers:
       GitHub: https://github.com/itohiro73
       Blog: http://itohiro73.hatenablog.com/
     image: /speakers/2220637.jpg
-    slide:
+    slide: https://www.slideshare.net/itohiro73/scala-122624319
     movie:
 
   - name: 佐藤 貴比呂
@@ -539,7 +539,7 @@ speakers:
       Twitter: https://twitter.com/petitviolet
       Speakerdeck: https://speakerdeck.com/petitviolet
     image: /speakers/8575c9126a8e1179b4013fb48a25c2a7.jpeg
-    slide:
+    slide: https://speakerdeck.com/petitviolet/real-world-graphql-on-scala
     movie:
 
   - name: 藤野宏樹
@@ -558,7 +558,7 @@ speakers:
     profile: |
       https://github.com/Hiroki6
     image: /speakers/fb459a2afdf9f0f9fc2fe015a8f1c22b.jpg
-    slide:
+    slide: https://speakerdeck.com/hiroki6/strategy-for-concurrency-and-parallel-by-scala
     movie:
 
   - name: 濱崎 俊
