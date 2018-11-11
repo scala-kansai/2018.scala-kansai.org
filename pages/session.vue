@@ -22,6 +22,7 @@
                     <span v-if="speaker.level=='中/上級者向け'" class="level high">中/上級者向け</span>
                     <span v-if="speaker.level=='初心者向け'" class="level easy">初心者向け</span>
                     <span class="time"><i class="far fa-clock"></i>{{speaker.time}}</span>
+                    <span class="slide"><a v-if="speaker.slide" v-bind:href="speaker.slide" target="_blank">slide</a></span>
                   </div>
                   <div class="sponsorSession">
                     <span v-if="speaker.type=='スポンサーセッション'" class="type sponsor">スポンサーセッション</span>
@@ -205,6 +206,14 @@ export default {
             font-size: 1.6rem;
 
           }
+        }
+
+        .slide {
+          margin-left: 10px;
+          font-size: 18px;
+          color: #D64F2C;
+          font-weight: bold;
+          cursor: pointer;
         }
 
         .title {

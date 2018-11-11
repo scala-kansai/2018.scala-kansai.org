@@ -102,7 +102,7 @@ speakers:
     profile: |
       ChatWork 2016年10月入社。PHPエンジニアとしてチャットワーク開発に従事してたが、最近Scalaのプロダクトにも参加
     image: /speakers/1246769.jpg
-    slide:
+    slide: https://speakerdeck.com/shingoharada/phpenzinianiyoruscalaenziniahefalsezhuan-shen-tosofalseshou-yin-ki
     movie:
 
   - name: 村上 拓也
